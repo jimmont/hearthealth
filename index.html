@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" >
+<meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+<title>charts + graphs for heart health</title>
+<meta name="description" content="sample project">
+<style>
+:root{
+	--blue: #06214a; /*#5bf; */
+	--red: #cd142b;
+	--lightbrown: #e18d00;
+	--brownish: #944c12;
+	--golden: #fc0;
+	--stuff: rgba(255,255,255,0.9);
+}
+html,body{margin:0;padding:0;min-width:320px;min-height:320px;box-sizing:border-box;background-color:var(--blue);}
+body{
+	padding:1rem;min-height:100vh;min-width:100vw;background-color:#fff;
+	font-size:1rem;font-family:system, system-ui, -apple-system, ".SFNSText-Regular", "San Francisco", "Oxygen", "Ubuntu", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif; line-height: 1.3;
+	margin:0;padding:0;
+}
+pre, code{font-size:inherit;font-family:"SF Mono", "Monaco", "Inconsolata", "Fira Mono", "Droid Sans Mono", "Source Code Pro", "Lucida Console", monospace;}
+iframe{border: 1;}
+fieldset{border:0;padding:0;margin:0.2em 0 .5em 0;}
+label{user-select:none;}
+h1,h2,h3,h4,h5,h6, p{margin:0 0 1em 0;}
+
+header{
+	box-sizing:border-box;
+	position:sticky;z-index:111;inset-block:0 auto;
+	width:100vw;background-color:var(--stuff);border-bottom:1px dotted var(--lightbrown);
+	padding:0.5em;
+	display:flex;flex-wrap:wrap;align-items:baseline;
+}
+header > *{flex: 1 1 auto;}
+header a{text-decoration:none;}
+header b{flex: 0 0 5em;}
+a{color:var(--blue);}
+hh-user{flex:0 0 7em;}
+
+section[hh-chart]{
+/*
+	display:flex;min-height:320px;min-width:320px;align-items:stretch;
+*/
+	box-sizing:border-box;
+	padding:0.5em;
+}
+section[hh-chart] > *{
+	flex:0 0 50%;padding:0.5em;
+	box-sizing:border-box;
+}
+div.hh-chart > *{position:relative;}
+b.icon{position:absolute;margin-inline-start:-1em;}
+div.hh-chart > *:hover{background-color:var(--golden,#ddd);cursor:pointer;}
+
+section[description]{cols: auto 22em;padding:1em;}
+</style>
+</head>
+<body>
+<header>
+	<a href="/"><span style="color:var(--red);">heart</span> health</a>
+	<span> </span>
+	<hh-user title="user info">...</hh-user>
+</header>
+<section description>
+...
+</section>
+<section hh-chart>
+section
+	<hh-measurements>...</hh-measurements>
+</section>
+<script type=module>
+import { LitElement, html, svg, css } from '/litelement.js';
+
+customElements.define('hh-user', class HHUser extends LitElement{
+	static get styles(){
+		return css`
+			:host(:hover){background-color:var(--golden, #ddd);position:relative;}
+			:slotted{font-weight:normal;}
+			/*sub{position:relative;}*/
+			slot[name="source"]{color:var(--blue, #555);}
+			slot[name="source"]::slotted(*){position:absolute;bottom:0;right:1em;}
+
+		`;
+	}
+	static get properties(){
+		return {
+			users: {type: Array},
+			user: {type: Object},
+		}
+	}
+	constructor(){
+		super();
+		this.users = [];
+		this.user = null;
+	}
+	selectUser(event){
+		const index = Number(event.target.value);
+		const user = this.users[ index ] || null;
+		const detail = {user, index};
+		this.user = isNaN(index) ? -1 : index;
+
+		console.log(`now show chart for ${ index }`, user);
+		// relay state change to all who listen
+		self.dispatchEvent(new CustomEvent('user', {detail}));
+	}
+	connectedCallback(){
+		super.connectedCallback();
+		fetch('/api/users/')
+			.then(res=>res.json())
+			.then(res=>{
+				console.log(this.constructor.name, res);
+				this.users = res.rows;
+				// TODO
+				requestAnimationFrame(()=>{
+					console.warn('TODO remove auto-selection');
+					const node = this.shadowRoot.querySelector('select');
+					node.selectedIndex = 1;
+					node.dispatchEvent(new Event('change'));
+				});
+			})
+			// TODO
+			.catch(error=>error)
+	}
+	renderUsers(user, i){
+		const [id, name] = user;
+		return html`<option value="${ i }" title="${ id }">${ name }</option>`;
+	}
+	render(data){
+		return html`
+<select @change=${ this.selectUser }>
+	<option>people</option>
+	${ this.users.map(this.renderUsers) }
+</select>
+`;
+	}
+});
+
+customElements.define('hh-measurements', class HHMeasurements extends LitElement{
+	static get styles(){
+		return css`
+			:host{display:block;max-height:90vh;min-height:300px;}
+			h3{position:sticky;z-index:11;top:3rem;background:rgba(255,255,255,0.9);padding:0.5em 0;}
+			.label-background:not(:last-of-type){opacity:.0;}
+			.label-foreground{opacity:1;background-color:#cf0;}
+			[class^="label-"]{z-index:1;}
+			[class^="label-"]:hover{opacity:1;z-index:111;background-color:#fff;font-weight:bold;fill:#000;text-shadow:0px 0px 5px #fff;}
+		`;
+	}
+	static get properties(){
+		return {
+			measurements: {type: Array},
+			cols: {type: Array},
+			size: {type: Object}
+		}
+	}
+	constructor(){
+		super();
+		this.measurements = [];
+		this.cols = [];
+		this.updateUser = this.updateUser.bind(this);
+		this.updateSize = this.updateSize.bind(this);
+	}
+	connectedCallback(){
+		super.connectedCallback();
+		this.updateSize();
+		self.addEventListener('user', this.updateUser);
+		self.addEventListener('resize', this.updateSize);
+	}
+	disconnectedCallback(){
+		super.disconnectedCallback();
+		self.removeEventListener('user', this.updateUser);
+		self.removeEventListener('resize', this.updateSize);
+	}
+	updateSize(){
+		this.size = this.getClientRects();
+	}
+	updateUser(event){
+		const {user, index} = event.detail;
+		if(!user){
+			return this.measurements = [];
+		}
+		const [id, name] = user;
+
+		fetch(`/api/measurements?user_id=${ id }`)
+			.then(res=>res.json())
+			.then(res=>{
+				console.log('TODO show chart',res);
+				this.dataTransform(res);
+				this.cols = res.cols;
+				this.measurements = res.rows;
+			})
+			// TODO
+			.catch(console.error)
+			;
+	}
+	dataTransform(sql){
+		const {cols, rows} = sql;
+		// could be generalized more...
+		rows.forEach(this.dataWithDate);
+		rows.sort(this.dataByDate);
+		return sql;
+	}
+	dataWithDate(row){
+		const text = row[ 2 ];
+		let date = new Date(text);
+		if(isNaN(date)) date = new Date(0);
+		row[2] = {date, text} 
+	}
+	dataByDate(a, b){
+		const d = a[2].date - b[2].date;
+		return d < 0 ? -1 : (d > 0 ? 1 : 0);
+	}
+	updated(props){
+		console.log(`updated`,props);
+	}
+	render(){
+		const { measurements, cols } = this;
+
+		if(!measurements || !measurements.length) return html`<slot></slot> ...select user to show`;
+
+		const [clientRects] = this.size;
+		console.log(`render`, clientRects.width, clientRects.height, clientRects);
+
+		const [id, user_id, ...colkeys] = cols;
+		const width = Math.max(500, clientRects.width), height = Math.min(400, clientRects.height);
+		const xcount = measurements.length;
+		const xstep = width / xcount;
+		const colwidth = width / xcount;
+		const colheight = height / colkeys.length;
+
+		let xincrement = 1;
+		const xminstep = 20;
+		// compute the ticks to label
+		while(width * xincrement / xcount < xminstep){
+			xincrement += 1;
+		};
+
+		return html`
+<slot></slot>
+<h3> showing ${ measurements.length } measurements </h3>
+<div>${
+cols.map((item, i)=>{
+	return i + ': ' +JSON.stringify(item);
+}) }</div>
+<hr>
+${ svg`<svg viewBox="0 0 ${ width } ${ height }" style="overflow:visible;">
+<g style="transform: translate(0, ${height}px);">
+${
+// timezone TODO https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat
+measurements.map((item, i)=>{
+	const [id, user_id, ...data] = item;
+	const [time, kg, hr, peak, bf, area] = data;
+	const x = (i * xstep).toFixed(0), y = (i * colheight).toFixed(3);
+	return svg`<text class="${ i % xincrement === 0 ? 'label-foreground':'label-background' }" x=${ x } y=0 style="transform-origin:${x}px 0;transform:rotate(90deg);">${(i+1) + ': ' +data.join(', ') }</text>`;
+})
+}</g>
+
+</svg>` }
+		`;
+	}
+});
+</script>
+<noscript><p>please enable javascript</p></noscript>
+</body></html>

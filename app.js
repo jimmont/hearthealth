@@ -19,10 +19,24 @@ const port = 5000;
 const db = new DB("./app.db");
 const server = serve({ port });
 
+const charset = '; charset=utf-8';
+const mimetypes = {
+	css: `text/css${ charset }`
+	,ico: `image/vnd.microsoft.icon`
+	,jpg: `image/jpeg`
+	,js: `text/javascript${ charset }`
+	,json: `application/json${ charset }`
+	,pdf: `application/pdf${ charset }`
+	,txt: `text/plain${ charset }`
+	,html: `text/html${ charset }`
+	// application/csp-report as JSON
+};
+
+
 console.log(`open http://localhost:${ port }/`);
 
 for await (const req of server) {
-	let headers = {}, status, body;
+	let headers = {'Cache-Control': 'private, max-age=7, s-maxage=8'}, status, body;
 	try{
 		let result = await route(req);
 		status = result.status || 200;
@@ -47,7 +61,7 @@ for await (const req of server) {
 async function route(req){
 	const url = new URL(req.url, 'http://'+req.headers.get('host'));
 
-	let body = '', status = 200;
+	let body = '', status = 200, headers = {};
 	const { pathname, searchParams, origin } = url;
 	if(pathname.startsWith('/api')){
 		return api(url, req);
@@ -58,16 +72,19 @@ async function route(req){
 		const index = pathname.endsWith('/') ? 'index.html' : (!/[a-z0-9]+\.[a-z0-9]+$/i.test(pathname) ? '/index.html' : '');
 		// resolve only: '/' => './' due to resolve(Deno.cwd(), '/root') => '/root'
 		const path = pafs.resolve(Deno.cwd(), `.${ pathname }${ index }`);
+		const ext = path.substring(path.lastIndexOf('.')+1);
+		const type = mimetypes[ ext ] || mimetypes[ 'txt' ];
 		try{
 			const reader = await Deno.open( path );
 			body = reader;
 		}catch(error){
 			status = 404;
-			body = `not found "${ url }"`;
+			body = type.includes('text') ? `not found "${ url }"` : '';
 		};
+		headers['Content-Type'] = type;
 	};
 
-	return { status, body };
+	return { status, headers, body };
 }
 /*
 create - insert - POST 201, Location:<header-url/type/id>; 409 for conflict if exists
@@ -100,7 +117,7 @@ async function api(url, req){
 		return all;
 	}, []);
 	// TODO vary by req.method and payload.... TODO
-	const sql = `select * from ${ type }${ where.length ? ` where ${ where.join(' && ') }`: '' } limit 20`;
+	const sql = `select * from ${ type }${ where.length ? ` where ${ where.join(' && ') }`: '' } limit 701`;
 
 	const response = {status: 200, body: {sql}};
 	return query(sql).then(result=>{
