@@ -9,6 +9,7 @@
 	* this was made for specific local development/experimentation
 	* it doesn't properly escape or handle untrusted input
 	* the SQLITE library also hasn't been tested for handling input
+		-> see TODO for data binding below
 	* this app essentially has not addressed security and trusts everyone
 */
 import { serve } from "https://deno.land/std/http/server.ts";
@@ -101,6 +102,9 @@ async function api(url, req){
 	}
 	const params = [...Array.from(searchParams)];
 	if(id) params.push(["id", id]);
+	// TODO data binding https://dyedgreen.github.io/deno-sqlite/#/examples?id=binding-values-to-queries
+	// ie db.query("INSERT INTO people (name, email) VALUES (?, ?)", [name, email]);
+	// https://doc.deno.land/https/deno.land/x/sqlite@v2.3.2/src/db.ts#DB
 	const where = params.reduce((all, param)=>{
 		const [key, val] = param;
 		// TODO other operators beyond '=' assumes '=' when missing, and all for now
@@ -118,8 +122,13 @@ async function api(url, req){
 	}, []);
 	// TODO vary by req.method and payload.... TODO
 	const sql = `select * from ${ type }${ where.length ? ` where ${ where.join(' && ') }`: '' } limit 701`;
-
 	const response = {status: 200, body: {sql}};
+
+	if(!/^[a-z]+$/.test(type)){
+		response.status = 400;
+		response.body.error = 'invalid table/type';
+		return Promise.resolve(response);
+	}
 	return query(sql).then(result=>{
 		const rows = Array.from(result.rows);
 		Object.assign(response.body, {rows, cols: result.cols.map(col=>col.name)});

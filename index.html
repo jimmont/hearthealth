@@ -78,10 +78,8 @@ customElements.define('hh-user', class HHUser extends LitElement{
 		return css`
 			:host(:hover){background-color:var(--golden, #ddd);position:relative;}
 			:slotted{font-weight:normal;}
-			/*sub{position:relative;}*/
 			slot[name="source"]{color:var(--blue, #555);}
 			slot[name="source"]::slotted(*){position:absolute;bottom:0;right:1em;}
-
 		`;
 	}
 	static get properties(){
@@ -142,10 +140,25 @@ customElements.define('hh-measurements', class HHMeasurements extends LitElement
 		return css`
 			:host{display:block;max-height:90vh;min-height:300px;}
 			h3{position:sticky;z-index:11;top:3rem;background:rgba(255,255,255,0.9);padding:0.5em 0;}
-			.label-background:not(:last-of-type){opacity:.0;}
-			.label-foreground{opacity:1;background-color:#cf0;}
-			[class^="label-"]{z-index:1;}
-			[class^="label-"]:hover{opacity:1;z-index:111;background-color:#fff;font-weight:bold;fill:#000;text-shadow:0px 0px 5px #fff;}
+			.data text{opacity:0;}
+			.label-background:not(:last-of-type) text{opacity:0;}
+			.data_text{transform:translateY(calc(-100% + 0.5rem));}
+			[class^="label-"]:hover text{opacity:1;text-shadow:0px 0px 5px #fff;}
+			polyline{fill:none;stroke-width:5px;opacity:0.3;}
+			.body_fat polyline, polyline.body_fat{stroke:var(--blue);}
+			.markers polyline{stroke-dasharray: 5, 8, 1, 30;stroke-width:1;}
+			.markers .body_fat polyline{stroke-dasharray: 3, 5;}
+			[class^="label-"]:hover polyline{opacity:1;}
+			circle{opacity:0.6;stroke:transparent;stroke-width:4px;fill:var(--red);}
+			[class^="label-"]:hover circle{opacity:1;stroke:var(--red);}
+			.markers .body_fat text,
+			tspan.body_fat{fill:var(--blue);font-weight:bold;opacity:1;}
+			.markers .heart_rate polyline,
+			.heart_rate{stroke:var(--red);stroke-width:1;opacity:0.7;}
+			.markers .heart_rate text,
+			tspan.heart_rate{fill:var(--red);opacity:1;}
+			.markers text,
+			.index, .sub, .sup{font-size:0.7em;}
 		`;
 	}
 	static get properties(){
@@ -190,6 +203,7 @@ customElements.define('hh-measurements', class HHMeasurements extends LitElement
 				this.dataTransform(res);
 				this.cols = res.cols;
 				this.measurements = res.rows;
+				this.data = res;
 			})
 			// TODO
 			.catch(console.error)
@@ -200,6 +214,7 @@ customElements.define('hh-measurements', class HHMeasurements extends LitElement
 		// could be generalized more...
 		rows.forEach(this.dataWithDate);
 		rows.sort(this.dataByDate);
+//		sql.rowsByWeight = [...rows].sort(this.dataByWeight);
 		return sql;
 	}
 	dataWithDate(row){
@@ -212,6 +227,12 @@ customElements.define('hh-measurements', class HHMeasurements extends LitElement
 		const d = a[2].date - b[2].date;
 		return d < 0 ? -1 : (d > 0 ? 1 : 0);
 	}
+/*
+	dataByWeight(a, b){
+		const d = a[3] - b[3];
+		return d < 0 ? -1 : (d > 0 ? 1 : 0);
+	}
+*/
 	updated(props){
 		console.log(`updated`,props);
 	}
@@ -237,23 +258,88 @@ customElements.define('hh-measurements', class HHMeasurements extends LitElement
 			xincrement += 1;
 		};
 
+		// convert one range to another: [hr-brady <=40, hr-tachy >=100], hrconvert = height-range / (number-range);
+		// then hrn = (hr - hrrange) * hrconvert; where hrn is a y or x or z coordinate
+		const hrmin = 30, hrmax = 150, hrrange = hrmax - hrmin;
+		// body fat %: very unusual to have 5% or lower, 50% is extreme so cap at that
+		const bfmin = 5, bfmax = 50, bfrange = bfmax - bfmin;
+
+		const hrticks = Array.from( new Set([hrmin, 60, 100, hrmax]) );
+
+		/* bf essential 2-5M 10-13F
+			athletes...fit 6-13...17M 14-20...24F
+			average
+			*/
+		const bfticks = Array.from( new Set([bfmin, 10, 20, 30, bfmax]) );
+
 		return html`
 <slot></slot>
-<h3> showing ${ measurements.length } measurements </h3>
-<div>${
-cols.map((item, i)=>{
-	return i + ': ' +JSON.stringify(item);
-}) }</div>
-<hr>
+<h3>${ measurements.length } measurements</h3>
 ${ svg`<svg viewBox="0 0 ${ width } ${ height }" style="overflow:visible;">
-<g style="transform: translate(0, ${height}px);">
+<g class="markers" style="transform: translate(0, ${height}px);">
+${
+hrticks.map(hr=>{
+	let hry = -(height * ((hr - hrmin) / hrrange));
+
+	return svg`
+<g class="heart_rate" style="transform: translate(0, ${ hry - 1 });">
+	<polyline points="0,${ hry } ${width},${ hry }" />
+	<text x="0" y=${ hry }><tspan>${ hr.toFixed(0) }bpm</tspan></text>
+</g>
+	`;
+})
+
+}
+
+${
+bfticks.map(bf=>{
+	let bfy = -(height * ((bf - bfmin) / bfrange));
+	return svg`
+<g class="body_fat" style="transform: translate(0, ${ bfy + 1 });">
+	<polyline points="0,${ bfy } ${width},${ bfy }" />
+	<text x="1em" y=${ bfy }><tspan dy="1em">${ bf.toFixed(0) }%</tspan></text>
+</g>
+	`;
+})
+
+}
+
+</g>
+<g class="data" style="transform: translate(0, ${height}px);">
 ${
 // timezone TODO https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat
 measurements.map((item, i)=>{
 	const [id, user_id, ...data] = item;
 	const [time, kg, hr, peak, bf, area] = data;
 	const x = (i * xstep).toFixed(0), y = (i * colheight).toFixed(3);
-	return svg`<text class="${ i % xincrement === 0 ? 'label-foreground':'label-background' }" x=${ x } y=0 style="transform-origin:${x}px 0;transform:rotate(90deg);">${(i+1) + ': ' +data.join(', ') }</text>`;
+	const className = i % xincrement === 0 ? 'label-foreground':'label-background';
+
+	// hr normal range = 50-100 bpm; above 100 to 200 is quite high, above 180 or so requires medical help; runners often 40-50 range
+	// seems unrealistic to be alive with a heart rate near or below the minimum (in this scenario) so set those to the minimum with the real value available somehow
+	let hry = -(height * ((Math.max(hr, hrmin) - hrmin) / hrrange));
+
+	let bfy = -(height * ((Math.max(bf, bfmin) - bfmin) / bfrange));
+
+	const anchor = x <= (width/2) ? 'start':'end';
+
+	return svg`
+<g style="transform: translate(${ x }px, 0);" class="${ className }" >
+	<polyline class=hit_area points="5,20 5,${ -height }" style="stroke-width:15px;stroke:rgba(255,255,255,0);" />
+	<polyline class=body_fat points="5,0 5,${ bfy }" />
+	<text x=0 y=1em class=data_text text-anchor=${ anchor }>
+		<tspan class=weight_kg>${ kg }kg</tspan>
+		<tspan class=body_fat x=0 dy=1em>${ bf }%</tspan>
+		<tspan class=heart_rate x=0 dy=1em>${ hr }bpm</tspan>
+	</text>
+	<text y="0.8em" text-anchor=${ anchor }>
+		<tspan class="index">${(i+1)}</tspan>
+		<tspan x=0 dy="1em">${ time.text }</tspan></tspan>
+		<tspan x=0 dy=1em>${ peak } peaks</tspan>
+		<tspan x=0 dy=1em>${ area }mm</tspan><tspan class=sup dy="-0.5em">2</tspan>
+	</text>
+	<circle class=heart_rate cx=5 cy=${ hry.toFixed(1) } r=3 data-n=${ hr }></circle>
+</g>
+	`;
 })
 }</g>
 
