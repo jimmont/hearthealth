@@ -1,10 +1,10 @@
 Below is the original problem set with responses inline for part 2.
 
-1 To run it install Deno by following the instructions at https://deno.land
-2 Run app.js with Deno by invoking the command in the comment at the top of that script.
-3 The script will suggest opening localhost on the given port in stdout.
-4 Look at the page, select a user as it suggests, interact with the chart.
-5 Provide feedback to me via email that you have or found at www.jimmont.com
+1. To run it install Deno by following the instructions at https://deno.land
+2. Run app.js with Deno by invoking the command in the comment at the top of that script.
+3. The script will suggest opening localhost on the given port in stdout.
+4. Look at the page, select a user as it suggests, interact with the chart.
+5. Provide feedback via email that you have or can find at www.jimmont.com, thanks.
 
 
 # Frontend Assignment
@@ -104,6 +104,7 @@ How do you know the end users are satisfied?
 
 - keep a tab on what works in the industry, network, etc
 
+```sql
 .headers on
 sqlite> .mode column
 sqlite> select * from measurements;
@@ -115,3 +116,4 @@ BP192607TAKM092820111952000s  GRe2S6CUy6iMQMGZSVTNW2biwE3vt4  2020-09-28 04:19:2
 BP192607TAKM1116201219370007  GRe2S6CUy6iMQMGZSVTNW2biwE3vt4  2020-11-16 04:19:12-08  55.87       73          19          38.2              76
 BP192607TAKM0924201554510009  GRe2S6CUy6iMQMGZSVTNW2biwE3vt4  2020-09-24 08:54:20-07  55.01       68          14          33.8              20792
 BP192607TAKM100720034538001g  GRe2S6CUy6iMQMGZSVTNW2biwE3vt4  2020-10-06 20:45:08-07  55.15       82          19          36.0              109
+```
