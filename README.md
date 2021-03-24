@@ -1,3 +1,12 @@
+Below is the original problem set with responses inline for part 2.
+
+1 To run it install Deno by following the instructions at https://deno.land
+2 Run app.js with Deno by invoking the command in the comment at the top of that script.
+3 The script will suggest opening localhost on the given port in stdout.
+4 Look at the page, select a user as it suggests, interact with the chart.
+5 Provide feedback to me via email that you have or found at www.jimmont.com
+
+
 # Frontend Assignment
 
 This assignment consists of two tasks:
@@ -35,15 +44,15 @@ It should address these questions, as well as any other product or development c
 Do they belong on the plot, near it, or on a separate page?
 
 - I'd need to understand the audience and requirements to answer this question.
-Something that answers the questions:
+Often this is guided by the questions:
 * What and why are we communicating?
 * Who is our audience and what do we know about them?
-* What specific requirements exist for the solution (and project)?
-This typically is quite a short collection of a few paragraphs of info that informs all the details in execution, and can be referenced or updated when required.
+* What specific requirements exist for the solution and context?
+This typically is a short collection of a few paragraphs that informs all the details and can be referenced or updated when required.
 
 * How should the API be updated to support your new design?
 Are there any performance limitations that should be taken into consideration?
-- likely simply straightforward limiting of requests appropriately (pagination, sensible default bounds and similar)
+- the API and UI need pagination, with better limits and complete standard associated detail
 - most of the API call performance are isolated to the performance of the related services and caching can be tuned to suit the need
 - libraries can be versioned and cached separate from the data, tuned to fit those distinct needs, with loading indicators or whatever fits the UX need
 - logging/monitoring and routine maintenance/tuning usually covers issues related to performance
@@ -51,20 +60,22 @@ Are there any performance limitations that should be taken into consideration?
 
 * Is your current design too strict?
 What is an appropriate degree of flexibility?
-- products should look like they were designed, not a mistake, and address what's in the design brief;
-- flexibility should be relevant to the medium, for example common display-viewport sizes, not be infinite, and are intended to work for the business case and customer
+- It seems to work ok. The range of data provided fits overall and allows the user to scan or surface all the details based on the info provided and my assumptions based on working in healthcare.
+- I'm sure it could be improved, there are several details I noticed.
+
 How would future developers extend your work?
-- extend the component, inheritance, ....TODO
-- version or reference as a starting point
-- read the source, tests and implimentation info, referencing supporting material and using commonly available tools and tech that favors simplicity
+- Some of the features could be generalized, currently it's intended only to solve the given problem.
+- The piece needs some tests.
 
 * Can you assess the usability of newly added features?
-- TODO UI automation testing in ....TODO
+- I haven't tested this.
 
 How do you know the end users are satisfied?
-- ask them, engage them in dialog where appropriate, provide visibility into what we're doing to engage them
-
-- provide short, simple surveys, optionally contact for more, or allow open ended feedback:
+- Ask them what they are able to do with the info, how it helps them and how they use it (after)
+- What do they want to do with the data?
+- What can be done to make that easier?
+- Generally ask them, engage them in dialog where appropriate, provide visibility into what we're doing to engage them
+- On some interval provide short, simple surveys, optionally contact for more, or allow open ended feedback:
 	1a Does this make [X] easier? Yes/Unsure/No
 	1b Are the changes [better][unchanged][worse]?
 	1c Any feedback? [textarea]
