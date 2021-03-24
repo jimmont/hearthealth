@@ -24,7 +24,7 @@ pre, code{font-size:inherit;font-family:"SF Mono", "Monaco", "Inconsolata", "Fir
 iframe{border: 1;}
 fieldset{border:0;padding:0;margin:0.2em 0 .5em 0;}
 label{user-select:none;}
-h1,h2,h3,h4,h5,h6, p{margin:0 0 1em 0;}
+h1,h2,h3,h4,h5,h6, p{margin:0 0 0.5em 0;padding:0;}
 
 header{
 	box-sizing:border-box;
@@ -36,13 +36,12 @@ header{
 header > *{flex: 1 1 auto;}
 header a{text-decoration:none;}
 header b{flex: 0 0 5em;}
-a{color:var(--blue);}
-hh-user{flex:0 0 7em;}
+a, a:visited{color:var(--blue);}
+hh-user{flex:0 0 7em;text-align:right;}
+.brand-id{font-weight:bold;}
+header .brand-id{flex-grow:0;}
 
 section[hh-chart]{
-/*
-	display:flex;min-height:320px;min-width:320px;align-items:stretch;
-*/
 	box-sizing:border-box;
 	padding:0.5em;
 }
@@ -52,31 +51,33 @@ section[hh-chart] > *{
 }
 div.hh-chart > *{position:relative;}
 b.icon{position:absolute;margin-inline-start:-1em;}
-div.hh-chart > *:hover{background-color:var(--golden,#ddd);cursor:pointer;}
 
 section[description]{cols: auto 22em;padding:1em;}
 </style>
 </head>
 <body>
 <header>
-	<a href="/"><span style="color:var(--red);">heart</span> health</a>
+	<a href="/" class="brand-id"><span style="color:var(--red);">heart</span>health</a>
 	<span> </span>
 	<hh-user title="user info">...</hh-user>
 </header>
-<section description>
-...
-</section>
 <section hh-chart>
-section
-	<hh-measurements>...</hh-measurements>
+	<hh-measurements><p>A distribution of heart rate, weight and body fat percentages with calibration metrics over time.</p></hh-measurements>
+	<p>feedback welcome via <a href="https://www.jimmont.com/">www.jimmont.com</a></p>
 </section>
 <script type=module>
+/*
+	* this is a draft solution, attempting to solve both a formal design (ui and ux) problem
+	* it also attempts to manage complexity, be clear, separate concerns and approachable by anyone with proficiency in CSS, HTML, JavaScript and the various related APIs available in evergreen browsers
+	* it is my solution, without any transmitted use rights or guarantee, the problem posed is included as it was conveyed
+	* feedback is welcome, reach me with any followup via www.jimmont.com, there's an email posted there
+*/
 import { LitElement, html, svg, css } from '/litelement.js';
 
 customElements.define('hh-user', class HHUser extends LitElement{
 	static get styles(){
 		return css`
-			:host(:hover){background-color:var(--golden, #ddd);position:relative;}
+			:host{position:relative;display:inline;}
 			:slotted{font-weight:normal;}
 			slot[name="source"]{color:var(--blue, #555);}
 			slot[name="source"]::slotted(*){position:absolute;bottom:0;right:1em;}
@@ -102,6 +103,12 @@ customElements.define('hh-user', class HHUser extends LitElement{
 		console.log(`now show chart for ${ index }`, user);
 		// relay state change to all who listen
 		self.dispatchEvent(new CustomEvent('user', {detail}));
+
+		const url = new URL(location), name = user[1];
+		if(url.searchParams.get('user') !== name){
+			url.searchParams.set('user', name);
+			history.pushState({}, document.title, url);
+		}
 	}
 	connectedCallback(){
 		super.connectedCallback();
@@ -112,10 +119,16 @@ customElements.define('hh-user', class HHUser extends LitElement{
 				this.users = res.rows;
 				// TODO
 				requestAnimationFrame(()=>{
-					console.warn('TODO remove auto-selection');
-					const node = this.shadowRoot.querySelector('select');
-					node.selectedIndex = 1;
-					node.dispatchEvent(new Event('change'));
+					const url = new URL(location);
+					const user = url.searchParams.get('user');
+					if(user){
+						console.warn('display user', user, url);
+						const node = this.shadowRoot.querySelector(`option[title^="${ user }"]`);
+						if(!node) return;
+						const { parentNode } = node;
+						parentNode.selectedIndex = node.index;
+						parentNode.dispatchEvent(new Event('change'));
+					}
 				});
 			})
 			// TODO
@@ -123,7 +136,7 @@ customElements.define('hh-user', class HHUser extends LitElement{
 	}
 	renderUsers(user, i){
 		const [id, name] = user;
-		return html`<option value="${ i }" title="${ id }">${ name }</option>`;
+		return html`<option value="${ i }" title="${ name } ${ id }">${ name }</option>`;
 	}
 	render(data){
 		return html`
@@ -138,19 +151,26 @@ customElements.define('hh-user', class HHUser extends LitElement{
 customElements.define('hh-measurements', class HHMeasurements extends LitElement{
 	static get styles(){
 		return css`
-			:host{display:block;max-height:90vh;min-height:300px;}
-			h3{position:sticky;z-index:11;top:3rem;background:rgba(255,255,255,0.9);padding:0.5em 0;}
+			:host{display:block;min-height:300px;background-color:#fff;}
+			h1,h2,h3,h4,h5,h6,p,slot,svg{margin:0 0 1em 0;padding:0;display:block;}
+			svg{margin:1em 0 5rem 0;}
+
 			.data text{opacity:0;}
 			.label-background:not(:last-of-type) text{opacity:0;}
-			.data_text{transform:translateY(calc(-100% + 0.5rem));}
-			[class^="label-"]:hover text{opacity:1;text-shadow:0px 0px 5px #fff;}
+			[class^="label-"]:hover text,
+			[class^="label-"].hover text
+				{opacity:1;text-shadow:0px 0px 5px #fff;}
 			polyline{fill:none;stroke-width:5px;opacity:0.3;}
 			.body_fat polyline, polyline.body_fat{stroke:var(--blue);}
 			.markers polyline{stroke-dasharray: 5, 8, 1, 30;stroke-width:1;}
 			.markers .body_fat polyline{stroke-dasharray: 3, 5;}
-			[class^="label-"]:hover polyline{opacity:1;}
+			[class^="label-"]:hover polyline,
+			[class^="label-"].hover polyline
+				{opacity:1;}
 			circle{opacity:0.6;stroke:transparent;stroke-width:4px;fill:var(--red);}
-			[class^="label-"]:hover circle{opacity:1;stroke:var(--red);}
+			[class^="label-"]:hover circle,
+			[class^="label-"].hover circle
+				{opacity:1;stroke:var(--red);}
 			.markers .body_fat text,
 			tspan.body_fat{fill:var(--blue);font-weight:bold;opacity:1;}
 			.markers .heart_rate polyline,
@@ -174,10 +194,32 @@ customElements.define('hh-measurements', class HHMeasurements extends LitElement
 		this.cols = [];
 		this.updateUser = this.updateUser.bind(this);
 		this.updateSize = this.updateSize.bind(this);
+
+		// fix hovering on mobile, may be a better way for this TODO
+		this.addEventListener('touchstart', this.hoverin);
+		this.addEventListener('touchend', this.hoverout);
+	}
+	hoverout(event){
+		// last touch
+		if(!event.touches.length) this.querySelectorAll('.hover').forEach(node=>{ node.classList.remove('hover') })
+	}
+	hoverin(event){
+		cancelAnimationFrame(this._hovering);
+
+		const node = event.composedPath().find(node => (node.matches && node.matches('[class^="label-"]')));
+
+		if(node){
+			const parent = node.parentNode;
+			const active = parent.querySelectorAll('.hover');
+			this._hovering = requestAnimationFrame(()=>{
+				if(active) active.forEach(node=>{ node.classList.remove('hover') })
+				node.classList.add('hover');
+			});
+		}
+		console.log(node, event.type, event.target, event.composedPath(), event.touches.length);
 	}
 	connectedCallback(){
 		super.connectedCallback();
-		this.updateSize();
 		self.addEventListener('user', this.updateUser);
 		self.addEventListener('resize', this.updateSize);
 	}
@@ -214,7 +256,6 @@ customElements.define('hh-measurements', class HHMeasurements extends LitElement
 		// could be generalized more...
 		rows.forEach(this.dataWithDate);
 		rows.sort(this.dataByDate);
-//		sql.rowsByWeight = [...rows].sort(this.dataByWeight);
 		return sql;
 	}
 	dataWithDate(row){
@@ -227,19 +268,12 @@ customElements.define('hh-measurements', class HHMeasurements extends LitElement
 		const d = a[2].date - b[2].date;
 		return d < 0 ? -1 : (d > 0 ? 1 : 0);
 	}
-/*
-	dataByWeight(a, b){
-		const d = a[3] - b[3];
-		return d < 0 ? -1 : (d > 0 ? 1 : 0);
-	}
-*/
-	updated(props){
-		console.log(`updated`,props);
-	}
 	render(){
 		const { measurements, cols } = this;
 
-		if(!measurements || !measurements.length) return html`<slot></slot> ...select user to show`;
+		this.updateSize();
+
+		if(!measurements || !measurements.length) return html`...select a user to show (should be up top to the right)...this is a flow like an administrative view of users mixed up with what would be a specific user login flow, it seemed easiest for this small solution`;
 
 		const [clientRects] = this.size;
 		console.log(`render`, clientRects.width, clientRects.height, clientRects);
@@ -273,8 +307,8 @@ customElements.define('hh-measurements', class HHMeasurements extends LitElement
 		const bfticks = Array.from( new Set([bfmin, 10, 20, 30, bfmax]) );
 
 		return html`
-<slot></slot>
 <h3>${ measurements.length } measurements</h3>
+<slot></slot>
 ${ svg`<svg viewBox="0 0 ${ width } ${ height }" style="overflow:visible;">
 <g class="markers" style="transform: translate(0, ${height}px);">
 ${
@@ -326,7 +360,8 @@ measurements.map((item, i)=>{
 <g style="transform: translate(${ x }px, 0);" class="${ className }" >
 	<polyline class=hit_area points="5,20 5,${ -height }" style="stroke-width:15px;stroke:rgba(255,255,255,0);" />
 	<polyline class=body_fat points="5,0 5,${ bfy }" />
-	<text x=0 y=1em class=data_text text-anchor=${ anchor }>
+	<text x=0 y=1em class=data_text  text-anchor=${ anchor }
+			style="transform:translateY(calc(${ -height }px + 0.5rem));" >
 		<tspan class=weight_kg>${ kg }kg</tspan>
 		<tspan class=body_fat x=0 dy=1em>${ bf }%</tspan>
 		<tspan class=heart_rate x=0 dy=1em>${ hr }bpm</tspan>
