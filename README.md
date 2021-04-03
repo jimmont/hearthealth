@@ -1,7 +1,7 @@
 
 working demo: https://jimmont.github.io/hearthealth/?user=abbie
 
-[[dataviz-hearthealth.jpg]](https://jimmont.github.io/hearthealth/?user=abbie)
+<a href="https://jimmont.github.io/hearthealth/?user=abbie"><img src="dataviz-hearthealth.jpg"></a>
 
 Below is the original problem set with responses inline for part 2.
 
