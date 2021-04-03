@@ -1,0 +1,5715 @@
+{
+	"sql": "select * from measurements where user_id = 'Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP' limit 701",
+	"rows": [
+		[
+			"BP203407WWSZ101020000035001i",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-09 17:00:23-07",
+			72.42,
+			79,
+			6,
+			22.1,
+			68
+		],
+		[
+			"BP203407WWSZ101320234850003m",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-13 16:48:31-07",
+			73,
+			83,
+			19,
+			18.4,
+			65
+		],
+		[
+			"BP203407WWSZ101420005925003r",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-13 17:59:05-07",
+			72.41,
+			74,
+			19,
+			18.5,
+			94
+		],
+		[
+			"BP203407WWSZ102220223246007v",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-22 15:32:29-07",
+			73,
+			99,
+			19,
+			19.5,
+			39
+		],
+		[
+			"BP203407WWSZ102020005546006e",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-19 17:55:39-07",
+			72.59,
+			null,
+			1,
+			19,
+			57
+		],
+		[
+			"BP203407WWSZ101020011223001p",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-09 18:12:00-07",
+			72.56,
+			62,
+			19,
+			21.5,
+			170
+		],
+		[
+			"BP203407WWSZ101020012433001s",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-09 18:24:09-07",
+			72.62,
+			63,
+			19,
+			21.5,
+			82
+		],
+		[
+			"BP203407WWSZ101020012638001v",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-09 18:26:15-07",
+			72.62,
+			61,
+			19,
+			21.3,
+			62
+		],
+		[
+			"BP203407WWSZ102020013217006l",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-19 18:32:01-07",
+			72.59,
+			null,
+			0,
+			null,
+			null
+		],
+		[
+			"BP203407WWSZ102020011912006j",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-19 18:19:07-07",
+			72.59,
+			null,
+			0,
+			null,
+			null
+		],
+		[
+			"BP203407WWSZ101020012514001t",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-09 18:24:52-07",
+			72.62,
+			66,
+			19,
+			21.4,
+			44
+		],
+		[
+			"BP203407WWSZ102020012737006k",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-19 18:27:31-07",
+			72.59,
+			null,
+			0,
+			null,
+			null
+		],
+		[
+			"BP203407WWSZ102020014050006n",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-19 18:40:44-07",
+			72.53,
+			null,
+			0,
+			null,
+			null
+		],
+		[
+			"BP203407WWSZ101020020101001z",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-09 19:00:38-07",
+			72.62,
+			70,
+			19,
+			21.7,
+			74
+		],
+		[
+			"BP203407WWSZ101420010212003s",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-13 18:01:53-07",
+			72.41,
+			75,
+			19,
+			18.6,
+			60
+		],
+		[
+			"BP203407WWSZ102020014917006q",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-19 18:49:04-07",
+			72.53,
+			null,
+			3,
+			19.2,
+			217
+		],
+		[
+			"BP203407WWSZ102620215916007w",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-26 14:58:56-07",
+			71.94,
+			74,
+			19,
+			19.6,
+			51
+		],
+		[
+			"BP203407WWSZ101420010527003t",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-13 18:05:06-07",
+			72.41,
+			68,
+			19,
+			18.7,
+			52
+		],
+		[
+			"BP203407WWSZ102020211230006y",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-20 14:12:22-07",
+			72.34,
+			109,
+			5,
+			18.7,
+			null
+		],
+		[
+			"BP203407WWSZ102020195110006x",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-20 12:51:04-07",
+			71.99,
+			null,
+			0,
+			20.8,
+			22
+		],
+		[
+			"BP203407WWSZ1010201840360020",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-10 11:40:15-07",
+			72.73,
+			70,
+			19,
+			21.3,
+			48
+		],
+		[
+			"BP203407WWSZ101420012931003v",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-13 18:29:10-07",
+			72.46,
+			72,
+			19,
+			18.9,
+			47
+		],
+		[
+			"BP203407WWSZ101420012852003u",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-13 18:28:30-07",
+			72.46,
+			66,
+			19,
+			18.9,
+			65
+		],
+		[
+			"BP203407WWSZ101420013250003w",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-13 18:32:28-07",
+			72.46,
+			69,
+			19,
+			19.1,
+			46
+		],
+		[
+			"BP203407WWSZ1010202307560021",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-10 16:07:46-07",
+			72.87,
+			103,
+			6,
+			19.6,
+			70
+		],
+		[
+			"BP203407WWSZ101420013707003z",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-13 18:36:45-07",
+			72.46,
+			73,
+			19,
+			18.9,
+			205
+		],
+		[
+			"BP203407WWSZ101420013547003x",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-13 18:35:27-07",
+			72.46,
+			73,
+			19,
+			19,
+			51
+		],
+		[
+			"BP203407WWSZ102720000411007y",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-26 17:03:51-07",
+			72.34,
+			72,
+			19,
+			19,
+			55
+		],
+		[
+			"BP203407WWSZ102720000333007x",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-26 17:03:13-07",
+			72.34,
+			76,
+			19,
+			19,
+			70
+		],
+		[
+			"BP203407WWSZ102020211350006z",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-20 14:13:44-07",
+			72.34,
+			null,
+			0,
+			19.1,
+			42
+		],
+		[
+			"BP203407WWSZ1010202312590022",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-10 16:12:45-07",
+			72.87,
+			82,
+			10,
+			19.4,
+			46
+		],
+		[
+			"BP203407WWSZ1020202211510071",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-20 15:11:45-07",
+			71.98,
+			null,
+			0,
+			19.1,
+			35
+		],
+		[
+			"BP203407WWSZ1010202317500024",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-10 16:17:37-07",
+			72.87,
+			88,
+			11,
+			19.4,
+			88
+		],
+		[
+			"BP203407WWSZ1010202317200023",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-10 16:16:58-07",
+			72.87,
+			71,
+			19,
+			19.6,
+			47
+		],
+		[
+			"BP203407WWSZ1020202230050074",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-20 15:29:59-07",
+			71.98,
+			null,
+			0,
+			18.9,
+			46
+		],
+		[
+			"BP203407WWSZ1010202335540025",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-10 16:35:42-07",
+			72.87,
+			93,
+			8,
+			19.8,
+			76
+		],
+		[
+			"BP203407WWSZ1010202339020026",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-10 16:38:53-07",
+			72.87,
+			null,
+			6,
+			19.4,
+			56
+		],
+		[
+			"BP203407WWSZ102720004606007z",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-26 17:45:38-07",
+			72.34,
+			65,
+			19,
+			19.5,
+			170
+		],
+		[
+			"BP203407WWSZ1010202340420028",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-10 16:40:31-07",
+			72.87,
+			null,
+			6,
+			19.4,
+			41
+		],
+		[
+			"BP203407WWSZ1020202231420075",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-20 15:31:36-07",
+			71.98,
+			null,
+			0,
+			18.9,
+			24
+		],
+		[
+			"BP203407WWSZ1010202340140027",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-10 16:40:04-07",
+			72.87,
+			87,
+			6,
+			19.5,
+			47
+		],
+		[
+			"BP203407WWSZ1020202235150077",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-20 15:35:09-07",
+			71.92,
+			null,
+			0,
+			null,
+			30
+		],
+		[
+			"BP203407WWSZ1010202342040029",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-10 16:41:55-07",
+			72.64,
+			101,
+			5,
+			19.4,
+			27
+		],
+		[
+			"BP203407WWSZ102020225458007a",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-20 15:54:52-07",
+			71.92,
+			null,
+			0,
+			18.7,
+			30
+		],
+		[
+			"BP203407WWSZ101020234643002e",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-10 16:46:32-07",
+			72.84,
+			83,
+			7,
+			19.6,
+			70
+		],
+		[
+			"BP203407WWSZ102020225809007b",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-20 15:58:03-07",
+			71.92,
+			null,
+			0,
+			18.7,
+			38
+		],
+		[
+			"BP203407WWSZ102120000033007f",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-20 17:00:17-07",
+			72.57,
+			80,
+			8,
+			18.7,
+			100
+		],
+		[
+			"BP203407WWSZ101120002548002h",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-10 17:25:36-07",
+			72.84,
+			98,
+			10,
+			19.9,
+			38
+		],
+		[
+			"BP203407WWSZ102120000825007g",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-20 17:08:15-07",
+			72.57,
+			null,
+			4,
+			19.1,
+			78
+		],
+		[
+			"BP203407WWSZ1027201732440080",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-27 10:32:26-07",
+			72.63,
+			85,
+			19,
+			21.1,
+			52
+		],
+		[
+			"BP203407WWSZ1027201733200081",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-27 10:33:02-07",
+			72.63,
+			78,
+			19,
+			21.1,
+			83
+		],
+		[
+			"BP203407WWSZ102120010321007m",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-20 18:03:15-07",
+			72.57,
+			null,
+			0,
+			18.6,
+			52
+		],
+		[
+			"BP203407WWSZ1015200059110040",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-14 17:58:51-07",
+			72.12,
+			76,
+			19,
+			19.6,
+			53
+		],
+		[
+			"BP203407WWSZ102120010645007n",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-20 18:06:39-07",
+			72.57,
+			null,
+			0,
+			18.6,
+			22
+		],
+		[
+			"BP203407WWSZ102120010934007o",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-20 18:09:28-07",
+			72.57,
+			null,
+			0,
+			18.6,
+			33
+		],
+		[
+			"BP203407WWSZ101120192118002n",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-11 12:20:55-07",
+			72.84,
+			67,
+			19,
+			20.9,
+			73
+		],
+		[
+			"BP203407WWSZ1027202311430082",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-27 16:11:26-07",
+			73.31,
+			90,
+			19,
+			19.3,
+			42
+		],
+		[
+			"BP203407WWSZ102120012850007s",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-20 18:28:37-07",
+			72.45,
+			93,
+			9,
+			18.7,
+			234
+		],
+		[
+			"BP203407WWSZ0926200000350007",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-25 17:00:11-07",
+			73.11,
+			70,
+			18,
+			20.1,
+			445
+		],
+		[
+			"BP203407WWSZ101120195215002p",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-11 12:51:53-07",
+			72.91,
+			72,
+			19,
+			20.8,
+			63
+		],
+		[
+			"BP203407WWSZ1028202157010001",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-28 14:56:43-07",
+			72.77,
+			91,
+			19,
+			18.8,
+			46
+		],
+		[
+			"BP203407WWSZ101220195824002z",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-12 12:58:18-07",
+			72.6,
+			null,
+			0,
+			null,
+			null
+		],
+		[
+			"BP203407WWSZ101020000006001h",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-09 16:59:44-07",
+			72.42,
+			76,
+			19,
+			21.8,
+			71
+		],
+		[
+			"BP203407WWSZ101020000116001j",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-09 17:00:52-07",
+			72.42,
+			79,
+			19,
+			21.7,
+			507
+		],
+		[
+			"BP203407WWSZ101020000457001k",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-09 17:04:31-07",
+			72.42,
+			73,
+			13,
+			21.6,
+			356
+		],
+		[
+			"BP203407WWSZ100920235849001f",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-09 16:58:29-07",
+			72.42,
+			80,
+			19,
+			21.6,
+			82
+		],
+		[
+			"BP203407WWSZ100920235926001g",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-09 16:59:06-07",
+			72.42,
+			72,
+			19,
+			21.6,
+			47
+		],
+		[
+			"BP203407WWSZ100920235812001e",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-09 16:57:55-07",
+			72.42,
+			100,
+			19,
+			21.6,
+			44
+		],
+		[
+			"BP203407WWSZ1012202235480035",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-12 15:34:11-07",
+			72.51,
+			82,
+			120,
+			18.2,
+			195
+		],
+		[
+			"BP203407WWSZ102020004955006d",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-19 17:49:47-07",
+			72.59,
+			null,
+			4,
+			19,
+			48
+		],
+		[
+			"BP203407WWSZ102020010238006g",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-19 18:02:30-07",
+			72.59,
+			null,
+			1,
+			19.2,
+			62
+		],
+		[
+			"BP203407WWSZ102020005742006f",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-19 17:57:35-07",
+			72.59,
+			null,
+			1,
+			19.2,
+			25
+		],
+		[
+			"BP203407WWSZ102020010757006h",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-19 18:07:47-07",
+			72.59,
+			null,
+			4,
+			19.2,
+			127
+		],
+		[
+			"BP203407WWSZ1012202342460037",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-12 16:42:22-07",
+			72.69,
+			72,
+			19,
+			18.7,
+			340
+		],
+		[
+			"BP203407WWSZ101020010137001m",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-09 18:01:15-07",
+			72.56,
+			68,
+			19,
+			21.9,
+			72
+		],
+		[
+			"BP203407WWSZ101020005606001l",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-09 17:55:33-07",
+			72.56,
+			61,
+			11,
+			21.3,
+			83
+		],
+		[
+			"BP203407WWSZ092720200848000z",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-27 13:08:39-07",
+			73.34,
+			85,
+			6,
+			19.1,
+			65
+		],
+		[
+			"BP203407WWSZ101020010525001n",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-09 18:04:52-07",
+			72.56,
+			65,
+			17,
+			21.4,
+			95
+		],
+		[
+			"BP203407WWSZ101020011036001o",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-09 18:10:14-07",
+			72.56,
+			66,
+			19,
+			21.7,
+			55
+		],
+		[
+			"BP203407WWSZ101020011412001q",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-09 18:13:49-07",
+			72.56,
+			62,
+			19,
+			21.4,
+			22
+		],
+		[
+			"BP203407WWSZ101020011825001r",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-09 18:18:02-07",
+			72.62,
+			64,
+			19,
+			21.5,
+			87
+		],
+		[
+			"BP203407WWSZ102020011607006i",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-19 18:16:01-07",
+			72.59,
+			null,
+			0,
+			null,
+			null
+		],
+		[
+			"BP203407WWSZ101020012555001u",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-09 18:25:34-07",
+			72.62,
+			69,
+			19,
+			21.3,
+			80
+		],
+		[
+			"BP203407WWSZ101020013423001w",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-09 18:33:57-07",
+			72.62,
+			61,
+			19,
+			21.3,
+			200
+		],
+		[
+			"BP203407WWSZ101020015844001x",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-09 18:58:21-07",
+			72.62,
+			70,
+			19,
+			21.6,
+			41
+		],
+		[
+			"BP203407WWSZ102020013810006m",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-19 18:38:00-07",
+			72.53,
+			null,
+			4,
+			19.2,
+			49
+		],
+		[
+			"BP203407WWSZ102020014545006o",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-19 18:45:38-07",
+			72.53,
+			null,
+			0,
+			null,
+			null
+		],
+		[
+			"BP203407WWSZ102020014729006p",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-19 18:47:18-07",
+			72.53,
+			null,
+			5,
+			19,
+			71
+		],
+		[
+			"BP203407WWSZ101020020018001y",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-09 19:00:04-07",
+			72.62,
+			74,
+			8,
+			21.8,
+			71
+		],
+		[
+			"BP203407WWSZ102020015214006r",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-19 18:52:00-07",
+			72.53,
+			null,
+			5,
+			19,
+			245
+		],
+		[
+			"BP203407WWSZ101320182352003c",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-13 11:23:19-07",
+			72.72,
+			71,
+			19,
+			19.6,
+			324
+		],
+		[
+			"BP203407WWSZ102020020624006s",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-19 19:06:18-07",
+			72.53,
+			null,
+			0,
+			19,
+			53
+		],
+		[
+			"BP203407WWSZ102020021017006u",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-19 19:10:10-07",
+			72.53,
+			null,
+			0,
+			null,
+			null
+		],
+		[
+			"BP203407WWSZ102020191611006v",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-20 12:16:03-07",
+			71.99,
+			null,
+			0,
+			null,
+			null
+		],
+		[
+			"BP203407WWSZ102020194946006w",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-20 12:49:40-07",
+			71.99,
+			null,
+			0,
+			20.8,
+			27
+		],
+		[
+			"BP203407WWSZ1020202116530070",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-20 14:16:46-07",
+			72.4,
+			null,
+			0,
+			19,
+			54
+		],
+		[
+			"BP203407WWSZ101320234617003l",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-13 16:45:58-07",
+			73,
+			81,
+			19,
+			18.2,
+			53
+		],
+		[
+			"BP203407WWSZ1020202225160073",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-20 15:25:10-07",
+			71.98,
+			null,
+			0,
+			19,
+			22
+		],
+		[
+			"BP203407WWSZ1020202222590072",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-20 15:22:46-07",
+			71.98,
+			101,
+			13,
+			19.2,
+			66
+		],
+		[
+			"BP203407WWSZ1020202233230076",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-20 15:33:16-07",
+			71.92,
+			null,
+			0,
+			18.9,
+			48
+		],
+		[
+			"BP203407WWSZ101020234342002c",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-10 16:43:31-07",
+			72.84,
+			79,
+			6,
+			19.4,
+			45
+		],
+		[
+			"BP203407WWSZ101020234313002b",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-10 16:43:01-07",
+			72.84,
+			76,
+			8,
+			19.6,
+			79
+		],
+		[
+			"BP203407WWSZ1020202240020079",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-20 15:39:56-07",
+			71.92,
+			null,
+			0,
+			18.8,
+			34
+		],
+		[
+			"BP203407WWSZ1020202238030078",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-20 15:37:57-07",
+			71.92,
+			null,
+			0,
+			18.8,
+			46
+		],
+		[
+			"BP203407WWSZ101020234234002a",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-10 16:42:21-07",
+			72.64,
+			62,
+			6,
+			19.2,
+			58
+		],
+		[
+			"BP203407WWSZ101020234553002d",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-10 16:45:42-07",
+			72.84,
+			101,
+			7,
+			19.5,
+			65
+		],
+		[
+			"BP203407WWSZ101020235313002g",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-10 16:52:59-07",
+			72.84,
+			65,
+			9,
+			19.4,
+			80
+		],
+		[
+			"BP203407WWSZ101320235002003o",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-13 16:49:44-07",
+			73,
+			86,
+			19,
+			18.2,
+			146
+		],
+		[
+			"BP203407WWSZ101320234926003n",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-13 16:49:08-07",
+			73,
+			82,
+			19,
+			18.2,
+			87
+		],
+		[
+			"BP203407WWSZ102020231834007e",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-20 16:18:28-07",
+			71.92,
+			null,
+			0,
+			18.6,
+			32
+		],
+		[
+			"BP203407WWSZ102020230057007c",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-20 16:00:41-07",
+			71.92,
+			103,
+			19,
+			18.7,
+			54
+		],
+		[
+			"BP203407WWSZ102020230248007d",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-20 16:02:35-07",
+			71.92,
+			null,
+			5,
+			19.5,
+			207
+		],
+		[
+			"BP203407WWSZ102120001943007h",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-20 17:19:32-07",
+			72.57,
+			null,
+			3,
+			19,
+			57
+		],
+		[
+			"BP203407WWSZ102120005700007l",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-20 17:56:54-07",
+			72.57,
+			null,
+			0,
+			18.7,
+			45
+		],
+		[
+			"BP203407WWSZ102120003515007j",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-20 17:35:03-07",
+			72.57,
+			null,
+			2,
+			19.2,
+			176
+		],
+		[
+			"BP203407WWSZ102120003322007i",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-20 17:33:10-07",
+			72.57,
+			89,
+			6,
+			19.2,
+			30
+		],
+		[
+			"BP203407WWSZ102120012650007q",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-20 18:26:43-07",
+			72.45,
+			null,
+			0,
+			18.2,
+			67
+		],
+		[
+			"BP203407WWSZ101120195245002q",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-11 12:52:32-07",
+			72.91,
+			78,
+			9,
+			20.8,
+			39
+		],
+		[
+			"BP203407WWSZ102120011135007p",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-20 18:11:29-07",
+			72.57,
+			null,
+			0,
+			18.8,
+			43
+		],
+		[
+			"BP203407WWSZ102120012817007r",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-20 18:28:08-07",
+			72.45,
+			null,
+			5,
+			18.7,
+			27
+		],
+		[
+			"BP203407WWSZ101120224325002s",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-11 15:43:17-07",
+			73.29,
+			null,
+			3,
+			20.2,
+			112
+		],
+		[
+			"BP203407WWSZ101120195136002o",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-11 12:51:15-07",
+			72.91,
+			75,
+			19,
+			21,
+			78
+		],
+		[
+			"BP203407WWSZ101120210504002r",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-11 14:04:56-07",
+			73.13,
+			null,
+			3,
+			20.2,
+			37
+		],
+		[
+			"BP203407WWSZ102120015508007t",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-20 18:54:51-07",
+			72.45,
+			85,
+			19,
+			18.3,
+			63
+		],
+		[
+			"BP203407WWSZ102120015541007u",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-20 18:55:28-07",
+			72.38,
+			88,
+			9,
+			18.8,
+			282
+		],
+		[
+			"BP203407WWSZ101220194018002x",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-12 12:38:25-07",
+			72.6,
+			66,
+			120,
+			20.5,
+			115
+		],
+		[
+			"BP203407WWSZ101220192859002w",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-12 12:28:49-07",
+			72.6,
+			null,
+			6,
+			20.3,
+			64
+		],
+		[
+			"BP203407WWSZ101220192509002u",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-12 12:24:48-07",
+			72.6,
+			68,
+			19,
+			20.4,
+			115
+		],
+		[
+			"BP203407WWSZ101220192657002v",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-12 12:26:41-07",
+			72.6,
+			62,
+			11,
+			20.4,
+			77
+		],
+		[
+			"BP203407WWSZ101220195538002y",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-12 12:55:32-07",
+			72.6,
+			null,
+			0,
+			null,
+			null
+		],
+		[
+			"BP203407WWSZ1012202010290031",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-12 13:08:58-07",
+			72.6,
+			72,
+			100,
+			20.1,
+			92
+		],
+		[
+			"BP203407WWSZ1012202006310030",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-12 13:06:10-07",
+			72.6,
+			72,
+			19,
+			19.9,
+			41
+		],
+		[
+			"BP203407WWSZ1012202217430032",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-12 15:16:28-07",
+			72.66,
+			78,
+			100,
+			17.5,
+			62
+		],
+		[
+			"BP203407WWSZ1012202228060034",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-12 15:26:29-07",
+			72.51,
+			83,
+			120,
+			17.6,
+			99
+		],
+		[
+			"BP203407WWSZ1012202224260033",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-12 15:24:04-07",
+			72.51,
+			75,
+			20,
+			17.6,
+			89
+		],
+		[
+			"BP203407WWSZ1012202341200036",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-12 16:40:59-07",
+			72.69,
+			75,
+			19,
+			18.5,
+			100
+		],
+		[
+			"BP203407WWSZ1012202351370038",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-12 16:51:14-07",
+			72.69,
+			61,
+			19,
+			18.4,
+			35
+		],
+		[
+			"BP203407WWSZ1013200016210039",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-12 17:14:38-07",
+			72.45,
+			71,
+			116,
+			18.7,
+			72
+		],
+		[
+			"BP203407WWSZ101320002737003a",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-12 17:25:56-07",
+			72.45,
+			76,
+			120,
+			18.8,
+			71
+		],
+		[
+			"BP203407WWSZ101320182024003b",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-13 11:20:03-07",
+			72.72,
+			74,
+			19,
+			19.5,
+			64
+		],
+		[
+			"BP203407WWSZ101320182517003e",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-13 11:24:48-07",
+			72.72,
+			75,
+			19,
+			19.5,
+			362
+		],
+		[
+			"BP203407WWSZ101320182430003d",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-13 11:24:09-07",
+			72.72,
+			80,
+			19,
+			19.7,
+			49
+		],
+		[
+			"BP203407WWSZ101420013628003y",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-13 18:36:08-07",
+			72.46,
+			80,
+			19,
+			18.9,
+			72
+		],
+		[
+			"BP203407WWSZ101320182756003f",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-13 11:27:35-07",
+			72.72,
+			69,
+			19,
+			19.5,
+			68
+		],
+		[
+			"BP203407WWSZ101320235039003p",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-13 16:50:19-07",
+			73,
+			75,
+			19,
+			18.2,
+			52
+		],
+		[
+			"BP203407WWSZ101320183244003g",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-13 11:32:21-07",
+			72.72,
+			78,
+			19,
+			19.7,
+			44
+		],
+		[
+			"BP203407WWSZ101320183627003h",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-13 11:36:12-07",
+			72.72,
+			73,
+			6,
+			19.5,
+			302
+		],
+		[
+			"BP203407WWSZ101320232917003i",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-13 16:28:58-07",
+			73,
+			82,
+			19,
+			18.4,
+			49
+		],
+		[
+			"BP203407WWSZ101320234541003k",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-13 16:45:21-07",
+			73,
+			76,
+			19,
+			18.3,
+			45
+		],
+		[
+			"BP203407WWSZ101320234503003j",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-13 16:44:44-07",
+			73,
+			82,
+			19,
+			18.4,
+			45
+		],
+		[
+			"BP203407WWSZ101320235114003q",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-13 16:50:56-07",
+			73,
+			84,
+			19,
+			18.1,
+			48
+		],
+		[
+			"BP203407WWSZ1101202306280002",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-11-01 15:06:07-08",
+			73.23,
+			76,
+			19,
+			19.8,
+			73
+		],
+		[
+			"BP203407WWSZ1101202313120004",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-11-01 15:12:50-08",
+			73.31,
+			70,
+			19,
+			19.8,
+			65
+		],
+		[
+			"BP203407WWSZ1101202309470003",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-11-01 15:09:14-08",
+			73.23,
+			null,
+			2,
+			20.2,
+			313
+		],
+		[
+			"BP203407WWSZ1102200046190007",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-11-01 16:45:59-08",
+			73.28,
+			65,
+			13,
+			20,
+			202
+		],
+		[
+			"BP203407WWSZ1102200016400005",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-11-01 16:16:21-08",
+			73.55,
+			91,
+			19,
+			20,
+			66
+		],
+		[
+			"BP203407WWSZ1102200022480006",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-11-01 16:22:27-08",
+			73.34,
+			68,
+			18,
+			19.8,
+			151
+		],
+		[
+			"BP203407WWSZ1102200052130008",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-11-01 16:51:47-08",
+			73.28,
+			65,
+			19,
+			19.5,
+			188
+		],
+		[
+			"BP203407WWSZ1102200055360009",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-11-01 16:55:21-08",
+			73.28,
+			84,
+			9,
+			19.8,
+			197
+		],
+		[
+			"BP203407WWSZ110220012046000a",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-11-01 17:20:23-08",
+			73.17,
+			74,
+			19,
+			19.3,
+			198
+		],
+		[
+			"BP203407WWSZ110220012221000b",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-11-01 17:21:59-08",
+			73.17,
+			66,
+			14,
+			19.7,
+			201
+		],
+		[
+			"BP203407WWSZ1015202025230049",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-15 13:25:02-07",
+			72.55,
+			70,
+			19,
+			19.9,
+			58
+		],
+		[
+			"BP203407WWSZ1015201744300041",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-15 10:44:10-07",
+			56.92,
+			73,
+			19,
+			12.3,
+			61
+		],
+		[
+			"BP203407WWSZ1015202018220047",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-15 13:18:01-07",
+			72.55,
+			68,
+			19,
+			20.4,
+			83
+		],
+		[
+			"BP203407WWSZ1015201846310043",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-15 11:46:19-07",
+			72.82,
+			81,
+			8,
+			20.1,
+			64
+		],
+		[
+			"BP203407WWSZ1015201843340042",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-15 11:43:14-07",
+			72.83,
+			78,
+			19,
+			20.3,
+			66
+		],
+		[
+			"BP203407WWSZ110220201258000c",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-11-02 12:12:38-08",
+			72.57,
+			76,
+			19,
+			21.5,
+			89
+		],
+		[
+			"BP203407WWSZ1015201855440044",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-15 11:55:24-07",
+			72.82,
+			75,
+			19,
+			20.3,
+			85
+		],
+		[
+			"BP203407WWSZ110220201645000e",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-11-02 12:16:25-08",
+			72.57,
+			76,
+			19,
+			21.4,
+			58
+		],
+		[
+			"BP203407WWSZ110220201607000d",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-11-02 12:15:48-08",
+			72.57,
+			75,
+			19,
+			21.5,
+			44
+		],
+		[
+			"BP203407WWSZ1015202017430046",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-15 13:17:23-07",
+			72.55,
+			78,
+			19,
+			20.2,
+			45
+		],
+		[
+			"BP203407WWSZ1015202017060045",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-15 13:16:46-07",
+			72.55,
+			77,
+			19,
+			20,
+			87
+		],
+		[
+			"BP203407WWSZ110220202058000f",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-11-02 12:20:36-08",
+			72.57,
+			68,
+			19,
+			21.1,
+			49
+		],
+		[
+			"BP203407WWSZ110220215253000g",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-11-02 13:52:34-08",
+			72.85,
+			82,
+			19,
+			19,
+			69
+		],
+		[
+			"BP203407WWSZ1015202024440048",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-15 13:24:24-07",
+			72.55,
+			74,
+			19,
+			20.1,
+			39
+		],
+		[
+			"BP203407WWSZ110220223605000h",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-11-02 14:35:45-08",
+			72.35,
+			73,
+			19,
+			19.1,
+			76
+		],
+		[
+			"BP203407WWSZ110220223928000j",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-11-02 14:39:08-08",
+			72.35,
+			78,
+			19,
+			19.3,
+			83
+		],
+		[
+			"BP203407WWSZ101620211442004a",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-16 14:14:25-07",
+			73.16,
+			94,
+			19,
+			18,
+			66
+		],
+		[
+			"BP203407WWSZ101820012217004r",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-17 18:22:11-07",
+			73.03,
+			null,
+			0,
+			18.8,
+			35
+		],
+		[
+			"BP203407WWSZ101820013248004s",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-17 18:32:32-07",
+			73.03,
+			66,
+			11,
+			19.3,
+			80
+		],
+		[
+			"BP203407WWSZ101820013601004t",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-17 18:35:54-07",
+			73.21,
+			null,
+			0,
+			null,
+			null
+		],
+		[
+			"BP203407WWSZ101720004959004b",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-16 17:49:37-07",
+			73.16,
+			66,
+			19,
+			19.2,
+			59
+		],
+		[
+			"BP203407WWSZ1018201929260059",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-18 12:29:10-07",
+			72.85,
+			64,
+			8,
+			null,
+			null
+		],
+		[
+			"BP203407WWSZ1018201914260057",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-18 12:14:20-07",
+			73.06,
+			null,
+			0,
+			null,
+			null
+		],
+		[
+			"BP203407WWSZ101820200133005h",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-18 13:01:10-07",
+			73.01,
+			null,
+			0,
+			null,
+			null
+		],
+		[
+			"BP203407WWSZ101820200248005i",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-18 13:02:42-07",
+			73.01,
+			null,
+			0,
+			null,
+			null
+		],
+		[
+			"BP203407WWSZ101820200351005j",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-18 13:03:45-07",
+			72.59,
+			null,
+			0,
+			null,
+			null
+		],
+		[
+			"BP203407WWSZ101820195645005f",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-18 12:56:39-07",
+			73.01,
+			null,
+			0,
+			null,
+			null
+		],
+		[
+			"BP203407WWSZ101720005039004c",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-16 17:50:17-07",
+			73.16,
+			70,
+			19,
+			18.9,
+			46
+		],
+		[
+			"BP203407WWSZ101720221758004d",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-17 15:17:42-07",
+			72.28,
+			106,
+			9,
+			20.5,
+			277
+		],
+		[
+			"BP203407WWSZ101720222023004e",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-17 15:20:11-07",
+			72.28,
+			null,
+			5,
+			20.3,
+			191
+		],
+		[
+			"BP203407WWSZ101820205214005m",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-18 13:52:05-07",
+			72.73,
+			null,
+			3,
+			19.3,
+			100
+		],
+		[
+			"BP203407WWSZ121320000236000n",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-12-12 16:02:29-08",
+			73.29,
+			null,
+			4,
+			24.6,
+			282
+		],
+		[
+			"BP203407WWSZ121220235854000l",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-12-12 15:58:49-08",
+			73.29,
+			null,
+			0,
+			24.7,
+			35
+		],
+		[
+			"BP203407WWSZ101720222125004f",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-17 15:21:12-07",
+			72.28,
+			null,
+			4,
+			20.3,
+			133
+		],
+		[
+			"BP203407WWSZ121320000339000o",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-12-12 16:03:29-08",
+			73.29,
+			null,
+			4,
+			24.5,
+			140
+		],
+		[
+			"BP203407WWSZ121320001945000q",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-12-12 16:19:39-08",
+			73.29,
+			null,
+			1,
+			24.6,
+			49
+		],
+		[
+			"BP203407WWSZ121320002814000s",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-12-12 16:28:04-08",
+			73.29,
+			null,
+			5,
+			24.8,
+			97
+		],
+		[
+			"BP203407WWSZ121320003337000y",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-12-12 16:33:16-08",
+			73.28,
+			82,
+			19,
+			24.3,
+			146
+		],
+		[
+			"BP203407WWSZ121320003201000w",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-12-12 16:31:42-08",
+			73.18,
+			95,
+			19,
+			24.3,
+			168
+		],
+		[
+			"BP203407WWSZ101720222158004g",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-17 15:21:47-07",
+			72.28,
+			119,
+			11,
+			20.1,
+			48
+		],
+		[
+			"BP203407WWSZ101820005317004j",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-17 17:53:07-07",
+			73.05,
+			94,
+			7,
+			18.8,
+			72
+		],
+		[
+			"BP203407WWSZ121320003245000x",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-12-12 16:32:24-08",
+			73.28,
+			83,
+			19,
+			24,
+			223
+		],
+		[
+			"BP203407WWSZ101720230845004i",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-17 16:08:35-07",
+			72.55,
+			null,
+			2,
+			19.6,
+			198
+		],
+		[
+			"BP203407WWSZ1213200043360012",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-12-12 16:43:25-08",
+			73.28,
+			93,
+			9,
+			24.1,
+			42
+		],
+		[
+			"BP203407WWSZ101720230705004h",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-17 16:06:58-07",
+			72.55,
+			null,
+			2,
+			19.5,
+			55
+		],
+		[
+			"BP203407WWSZ101820005450004k",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-17 17:54:36-07",
+			73.05,
+			null,
+			4,
+			18.9,
+			268
+		],
+		[
+			"BP203407WWSZ1019202216420068",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-19 15:16:33-07",
+			72.32,
+			null,
+			6,
+			17.3,
+			35
+		],
+		[
+			"BP203407WWSZ101820011545004p",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-17 18:15:38-07",
+			73.03,
+			null,
+			0,
+			18.6,
+			36
+		],
+		[
+			"BP203407WWSZ101820010004004m",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-17 17:59:58-07",
+			73.23,
+			null,
+			0,
+			null,
+			null
+		],
+		[
+			"BP203407WWSZ101820005726004l",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-17 17:57:12-07",
+			73.05,
+			null,
+			4,
+			18.9,
+			181
+		],
+		[
+			"BP203407WWSZ101820011127004n",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-17 18:11:21-07",
+			73.23,
+			null,
+			0,
+			null,
+			null
+		],
+		[
+			"BP203407WWSZ101820011521004o",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-17 18:15:15-07",
+			73.23,
+			null,
+			0,
+			null,
+			null
+		],
+		[
+			"BP203407WWSZ101820012154004q",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-17 18:21:48-07",
+			73.03,
+			null,
+			0,
+			18.7,
+			34
+		],
+		[
+			"BP203407WWSZ101820013925004u",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-17 18:39:19-07",
+			73.21,
+			null,
+			0,
+			null,
+			null
+		],
+		[
+			"BP203407WWSZ101820015914004v",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-17 18:59:07-07",
+			73.01,
+			null,
+			0,
+			19,
+			34
+		],
+		[
+			"BP203407WWSZ101820020200004w",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-17 19:01:39-07",
+			73.01,
+			63,
+			13,
+			19.2,
+			58
+		],
+		[
+			"BP203407WWSZ101820021945004z",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-17 19:19:18-07",
+			72.97,
+			null,
+			5,
+			19.2,
+			220
+		],
+		[
+			"BP203407WWSZ101820021718004y",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-17 19:17:12-07",
+			73.19,
+			null,
+			0,
+			null,
+			null
+		],
+		[
+			"BP203407WWSZ101820021543004x",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-17 19:15:28-07",
+			73.01,
+			90,
+			12,
+			19.2,
+			38
+		],
+		[
+			"BP203407WWSZ1018200228220054",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-17 19:27:59-07",
+			73.02,
+			79,
+			19,
+			19.1,
+			222
+		],
+		[
+			"BP203407WWSZ1018200227390052",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-17 19:27:33-07",
+			73.2,
+			null,
+			0,
+			null,
+			null
+		],
+		[
+			"BP203407WWSZ0915202324010009",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-15 16:23:32-07",
+			72.65,
+			71,
+			20,
+			0,
+			158
+		],
+		[
+			"BP203407WWSZ092120202546001n",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-21 13:25:27-07",
+			73,
+			83,
+			20,
+			20.4,
+			80
+		],
+		[
+			"BP203407WWSZ0920200026120015",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-19 17:26:06-07",
+			73.89,
+			96,
+			0,
+			6.6,
+			30
+		],
+		[
+			"BP203407WWSZ092220025240001u",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-21 19:52:20-07",
+			72.83,
+			81,
+			20,
+			21.5,
+			48
+		],
+		[
+			"BP203407WWSZ092220025100001t",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-21 19:50:40-07",
+			72.83,
+			80,
+			20,
+			21.5,
+			101
+		],
+		[
+			"BP203407WWSZ091920014830000r",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-18 18:48:10-07",
+			72.75,
+			75,
+			20,
+			0,
+			74
+		],
+		[
+			"BP203407WWSZ091920020420000t",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-18 19:03:58-07",
+			72.75,
+			70,
+			20,
+			0,
+			50
+		],
+		[
+			"BP203407WWSZ1018200227130051",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-17 19:26:59-07",
+			72.97,
+			73,
+			10,
+			19.4,
+			86
+		],
+		[
+			"BP203407WWSZ1018200226390050",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-17 19:26:28-07",
+			72.97,
+			91,
+			7,
+			19.2,
+			67
+		],
+		[
+			"BP203407WWSZ0920200026410016",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-19 17:26:34-07",
+			73.89,
+			84,
+			3,
+			6.6,
+			34
+		],
+		[
+			"BP203407WWSZ0919202331110010",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-19 16:31:06-07",
+			73.89,
+			0,
+			0,
+			0,
+			43
+		],
+		[
+			"BP203407WWSZ0920200129110018",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-19 18:28:47-07",
+			73.89,
+			62,
+			20,
+			6.2,
+			77
+		],
+		[
+			"BP203407WWSZ092120203036001p",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-21 13:30:32-07",
+			73,
+			0,
+			0,
+			20.5,
+			20
+		],
+		[
+			"BP203407WWSZ0922202135510024",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-22 14:35:30-07",
+			72.76,
+			75,
+			20,
+			20.9,
+			70
+		],
+		[
+			"BP203407WWSZ092220025542001w",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-21 19:55:36-07",
+			72.83,
+			0,
+			0,
+			0,
+			66
+		],
+		[
+			"BP203407WWSZ1018201902080055",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-18 12:01:51-07",
+			72.87,
+			67,
+			12,
+			19.4,
+			93
+		],
+		[
+			"BP203407WWSZ0922202104230021",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-22 14:04:17-07",
+			72.83,
+			0,
+			0,
+			21.2,
+			53
+		],
+		[
+			"BP203407WWSZ0922202357430028",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-22 16:57:22-07",
+			72.24,
+			83,
+			20,
+			19.9,
+			167
+		],
+		[
+			"BP203407WWSZ0924201849570003",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-24 11:49:37-07",
+			72.98,
+			82,
+			20,
+			21.8,
+			64
+		],
+		[
+			"BP203407WWSZ0924202113240009",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-24 14:13:05-07",
+			73.23,
+			85,
+			20,
+			22.1,
+			58
+		],
+		[
+			"BP203407WWSZ092720200704000y",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-27 13:06:30-07",
+			73.34,
+			0,
+			1,
+			19.2,
+			8137
+		],
+		[
+			"BP203407WWSZ092720204529001b",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-27 13:45:19-07",
+			73.34,
+			0,
+			0,
+			0,
+			37
+		],
+		[
+			"BP203407WWSZ092720204641001c",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-27 13:46:24-07",
+			73.34,
+			0,
+			0,
+			0,
+			812
+		],
+		[
+			"BP203407WWSZ091720011517000o",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-16 18:14:51-07",
+			73.07,
+			69,
+			20,
+			0,
+			126
+		],
+		[
+			"BP203407WWSZ0919202333340012",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-19 16:33:28-07",
+			73.89,
+			0,
+			0,
+			0,
+			140
+		],
+		[
+			"BP203407WWSZ092020235608001i",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-20 16:55:46-07",
+			73.61,
+			74,
+			20,
+			20.9,
+			74
+		],
+		[
+			"BP203407WWSZ092220025615001y",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-21 19:56:09-07",
+			72.83,
+			0,
+			1,
+			21.7,
+			37
+		],
+		[
+			"BP203407WWSZ0922202138070025",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-22 14:38:02-07",
+			72.76,
+			0,
+			0,
+			0,
+			33
+		],
+		[
+			"BP203407WWSZ100920021202000s",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-08 19:11:47-07",
+			72.17,
+			0,
+			4,
+			22.5,
+			506
+		],
+		[
+			"BP203407WWSZ1018201922150058",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-18 12:20:22-07",
+			73.06,
+			null,
+			0,
+			null,
+			null
+		],
+		[
+			"BP203407WWSZ1018201914010056",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-18 12:13:52-07",
+			72.87,
+			null,
+			4,
+			19.3,
+			47
+		],
+		[
+			"BP203407WWSZ101820193439005b",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-18 12:34:24-07",
+			72.85,
+			73,
+			8,
+			null,
+			null
+		],
+		[
+			"BP203407WWSZ101820200018005g",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-18 13:00:05-07",
+			73.01,
+			null,
+			0,
+			null,
+			null
+		],
+		[
+			"BP203407WWSZ101820193404005a",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-18 12:33:48-07",
+			72.85,
+			63,
+			7,
+			null,
+			null
+		],
+		[
+			"BP203407WWSZ101820194812005c",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-18 12:48:00-07",
+			72.85,
+			null,
+			5,
+			19.2,
+			65
+		],
+		[
+			"BP203407WWSZ101820195617005e",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-18 12:56:07-07",
+			72.82,
+			92,
+			7,
+			19.7,
+			62
+		],
+		[
+			"BP203407WWSZ101820194841005d",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-18 12:48:34-07",
+			73.02,
+			null,
+			0,
+			null,
+			null
+		],
+		[
+			"BP203407WWSZ101820200745005k",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-18 13:07:39-07",
+			72.59,
+			null,
+			0,
+			null,
+			null
+		],
+		[
+			"BP203407WWSZ101820205815005n",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-18 13:58:09-07",
+			72.73,
+			null,
+			0,
+			19.4,
+			49
+		],
+		[
+			"BP203407WWSZ101820205842005o",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-18 13:58:36-07",
+			72.93,
+			null,
+			0,
+			null,
+			null
+		],
+		[
+			"BP203407WWSZ101820213500005q",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-18 14:34:54-07",
+			73.73,
+			null,
+			0,
+			null,
+			null
+		],
+		[
+			"BP203407WWSZ101820220900005r",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-18 15:08:39-07",
+			73.54,
+			77,
+			16,
+			19.8,
+			62
+		],
+		[
+			"BP203407WWSZ101820223933005w",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-18 15:39:27-07",
+			73.54,
+			null,
+			0,
+			20,
+			27
+		],
+		[
+			"BP203407WWSZ101820223645005v",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-18 15:36:39-07",
+			73.54,
+			null,
+			0,
+			8.8,
+			30
+		],
+		[
+			"BP203407WWSZ101820213434005p",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-18 14:34:25-07",
+			73.53,
+			null,
+			3,
+			19.5,
+			73
+		],
+		[
+			"BP203407WWSZ101820224039005x",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-18 15:40:31-07",
+			73.54,
+			null,
+			3,
+			20.2,
+			94
+		],
+		[
+			"BP203407WWSZ101820224439005z",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-18 15:44:27-07",
+			73.54,
+			null,
+			4,
+			19.9,
+			72
+		],
+		[
+			"BP203407WWSZ1019200051300064",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-18 17:51:20-07",
+			73.08,
+			null,
+			5,
+			20.1,
+			71
+		],
+		[
+			"BP203407WWSZ1018202342050062",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-18 16:41:56-07",
+			73.04,
+			null,
+			4,
+			19.7,
+			68
+		],
+		[
+			"BP203407WWSZ101820224407005y",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-18 15:43:48-07",
+			73.54,
+			76,
+			11,
+			20,
+			104
+		],
+		[
+			"BP203407WWSZ1018202342310063",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-18 16:42:25-07",
+			73.25,
+			null,
+			0,
+			null,
+			null
+		],
+		[
+			"BP203407WWSZ1019200056270065",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-18 17:56:18-07",
+			73.08,
+			null,
+			5,
+			20.3,
+			79
+		],
+		[
+			"BP203407WWSZ101920225847006a",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-19 15:58:41-07",
+			72.38,
+			null,
+			0,
+			null,
+			null
+		],
+		[
+			"BP203407WWSZ1019202208020066",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-19 15:07:46-07",
+			72.32,
+			108,
+			19,
+			17.3,
+			63
+		],
+		[
+			"BP203407WWSZ1019202253010069",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-19 15:52:46-07",
+			72.38,
+			89,
+			9,
+			17.8,
+			223
+		],
+		[
+			"BP203407WWSZ1019202216150067",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-19 15:16:02-07",
+			72.32,
+			116,
+			13,
+			17.5,
+			37
+		],
+		[
+			"BP203407WWSZ101920232940006b",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-19 16:29:30-07",
+			72.38,
+			110,
+			7,
+			18,
+			41
+		],
+		[
+			"BP203407WWSZ121320003121000v",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-12-12 16:31:13-08",
+			73.27,
+			null,
+			4,
+			24.4,
+			35
+		],
+		[
+			"BP203407WWSZ121320003031000u",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-12-12 16:30:21-08",
+			73.27,
+			91,
+			7,
+			24.4,
+			88
+		],
+		[
+			"BP203407WWSZ121320002925000t",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-12-12 16:29:09-08",
+			73.18,
+			96,
+			16,
+			24.3,
+			180
+		],
+		[
+			"BP203407WWSZ1213200044110013",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-12-12 16:43:55-08",
+			73.28,
+			87,
+			8,
+			24.3,
+			190
+		],
+		[
+			"BP203407WWSZ1213200042270010",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-12-12 16:42:21-08",
+			73.28,
+			null,
+			0,
+			24.2,
+			23
+		],
+		[
+			"BP203407WWSZ1213200043040011",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-12-12 16:42:45-08",
+			73.28,
+			92,
+			17,
+			24.1,
+			107
+		],
+		[
+			"BP203407WWSZ121320004201000z",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-12-12 16:41:53-08",
+			73.28,
+			null,
+			5,
+			24.1,
+			42
+		],
+		[
+			"BP203407WWSZ110320022525000l",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-11-02 18:25:06-08",
+			73.1,
+			81,
+			19,
+			20.7,
+			127
+		],
+		[
+			"BP203407WWSZ110320022448000k",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-11-02 18:24:30-08",
+			73.1,
+			85,
+			19,
+			20.6,
+			63
+		],
+		[
+			"BP203407WWSZ092720205128001f",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-27 13:51:08-07",
+			73.25,
+			71,
+			18,
+			18.9,
+			55
+		],
+		[
+			"BP203407WWSZ110420202040000s",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-11-04 12:20:23-08",
+			71.31,
+			97,
+			19,
+			22,
+			99
+		],
+		[
+			"BP203407WWSZ110420195810000o",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-11-04 11:57:52-08",
+			71.37,
+			88,
+			19,
+			22.2,
+			69
+		],
+		[
+			"BP203407WWSZ110420195848000p",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-11-04 11:58:30-08",
+			71.37,
+			96,
+			19,
+			22.2,
+			92
+		],
+		[
+			"BP203407WWSZ110420200344000q",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-11-04 12:03:28-08",
+			71.37,
+			107,
+			19,
+			22.1,
+			69
+		],
+		[
+			"BP203407WWSZ110420195655000m",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-11-04 11:56:42-08",
+			71.37,
+			132,
+			19,
+			22.4,
+			46
+		],
+		[
+			"BP203407WWSZ110420195732000n",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-11-04 11:57:16-08",
+			71.37,
+			103,
+			19,
+			22.3,
+			40
+		],
+		[
+			"BP203407WWSZ110420202003000r",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-11-04 12:19:48-08",
+			71.31,
+			123,
+			19,
+			22.3,
+			49
+		],
+		[
+			"BP203407WWSZ110420202715000t",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-11-04 12:26:59-08",
+			71.31,
+			120,
+			19,
+			22.2,
+			94
+		],
+		[
+			"BP203407WWSZ110420230111000w",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-11-04 15:00:54-08",
+			71.59,
+			105,
+			19,
+			19.3,
+			54
+		],
+		[
+			"BP203407WWSZ110420203158000u",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-11-04 12:31:41-08",
+			71.31,
+			97,
+			19,
+			22.1,
+			61
+		],
+		[
+			"BP203407WWSZ110420230202000x",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-11-04 15:01:45-08",
+			71.59,
+			111,
+			19,
+			19.2,
+			103
+		],
+		[
+			"BP203407WWSZ110420230240000y",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-11-04 15:02:24-08",
+			71.59,
+			102,
+			19,
+			19.1,
+			72
+		],
+		[
+			"BP203407WWSZ110420204130000v",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-11-04 12:41:13-08",
+			71.31,
+			104,
+			19,
+			22.2,
+			97
+		],
+		[
+			"BP203407WWSZ110420230534000z",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-11-04 15:05:19-08",
+			71.59,
+			121,
+			19,
+			19.2,
+			77
+		],
+		[
+			"BP203407WWSZ1104202311570012",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-11-04 15:11:38-08",
+			71.59,
+			102,
+			19,
+			18.9,
+			233
+		],
+		[
+			"BP203407WWSZ1104202311170011",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-11-04 15:11:01-08",
+			71.59,
+			103,
+			19,
+			19.1,
+			44
+		],
+		[
+			"BP203407WWSZ1104202310400010",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-11-04 15:10:22-08",
+			71.59,
+			100,
+			19,
+			19,
+			145
+		],
+		[
+			"BP203407WWSZ1105202349420013",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-11-05 15:49:25-08",
+			73.22,
+			101,
+			19,
+			21.3,
+			68
+		],
+		[
+			"BP203407WWSZ1213202036300014",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-12-13 12:36:08-08",
+			72.72,
+			65,
+			19,
+			22.8,
+			76
+		],
+		[
+			"BP203407WWSZ1214200004530017",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-12-13 16:04:30-08",
+			72.72,
+			89,
+			19,
+			22.5,
+			307
+		],
+		[
+			"BP203407WWSZ1214200004120016",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-12-13 16:03:54-08",
+			72.72,
+			81,
+			19,
+			22.6,
+			58
+		],
+		[
+			"BP203407WWSZ1214200003350015",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-12-13 16:03:18-08",
+			72.72,
+			87,
+			19,
+			22.5,
+			72
+		],
+		[
+			"BP203407WWSZ1214200009080018",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-12-13 16:08:54-08",
+			72.72,
+			95,
+			12,
+			22.9,
+			77
+		],
+		[
+			"BP203407WWSZ121420001413001b",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-12-13 16:13:59-08",
+			72.72,
+			null,
+			7,
+			22.3,
+			314
+		],
+		[
+			"BP203407WWSZ110920211005001b",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-11-09 13:09:45-08",
+			72.25,
+			75,
+			19,
+			22.3,
+			63
+		],
+		[
+			"BP203407WWSZ1108202230280019",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-11-08 14:30:10-08",
+			72.02,
+			100,
+			19,
+			24,
+			75
+		],
+		[
+			"BP203407WWSZ110820224559001a",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-11-08 14:45:49-08",
+			72.02,
+			107,
+			8,
+			24.1,
+			76
+		],
+		[
+			"BP203407WWSZ1108202218150018",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-11-08 14:17:59-08",
+			72.02,
+			104,
+			13,
+			24,
+			61
+		],
+		[
+			"BP203407WWSZ110920212234001c",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-11-09 13:22:14-08",
+			72.25,
+			77,
+			19,
+			22.1,
+			65
+		],
+		[
+			"BP203407WWSZ111020201223001e",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-11-10 12:12:12-08",
+			72.19,
+			117,
+			8,
+			24,
+			70
+		],
+		[
+			"BP203407WWSZ100220000929002u",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-01 17:09:07-07",
+			72.17,
+			77,
+			19,
+			21.2,
+			196
+		],
+		[
+			"BP203407WWSZ100320224446000a",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-03 15:44:28-07",
+			73.13,
+			87,
+			19,
+			19.4,
+			74
+		],
+		[
+			"BP203407WWSZ092020230751001g",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-20 16:07:30-07",
+			74.18,
+			83,
+			20,
+			20.8,
+			64
+		],
+		[
+			"BP203407WWSZ092520000812000a",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-24 17:07:54-07",
+			73.23,
+			83,
+			18,
+			20.2,
+			70
+		],
+		[
+			"BP203407WWSZ092520005919000c",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-24 17:59:00-07",
+			73.23,
+			78,
+			18,
+			20.7,
+			78
+		],
+		[
+			"BP203407WWSZ092520001903000b",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-24 17:18:44-07",
+			73.23,
+			80,
+			18,
+			20.3,
+			136
+		],
+		[
+			"BP203407WWSZ092520022551000n",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-24 19:25:31-07",
+			73.42,
+			72,
+			18,
+			20.1,
+			68
+		],
+		[
+			"BP203407WWSZ092520181434000u",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-25 11:14:25-07",
+			72.47,
+			88,
+			4,
+			21,
+			51
+		],
+		[
+			"BP203407WWSZ0925201849100012",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-25 11:48:52-07",
+			72.47,
+			83,
+			18,
+			20.5,
+			71
+		],
+		[
+			"BP203407WWSZ0925202239280005",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-25 15:39:09-07",
+			73.19,
+			77,
+			18,
+			20.5,
+			78
+		],
+		[
+			"BP203407WWSZ0926200126470008",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-25 18:26:34-07",
+			72.45,
+			120,
+			18,
+			20.5,
+			52
+		],
+		[
+			"BP203407WWSZ092620224712000i",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-26 15:46:41-07",
+			73.35,
+			95,
+			17,
+			21.1,
+			309
+		],
+		[
+			"BP203407WWSZ092720013652000r",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-26 18:36:29-07",
+			72.89,
+			64,
+			18,
+			17.8,
+			56
+		],
+		[
+			"BP203407WWSZ0927202016090013",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-27 13:15:52-07",
+			73.34,
+			67,
+			13,
+			19,
+			68
+		],
+		[
+			"BP203407WWSZ0927202023240016",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-27 13:22:51-07",
+			73.34,
+			85,
+			12,
+			19.1,
+			589
+		],
+		[
+			"BP203407WWSZ092720214716001i",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-27 14:46:55-07",
+			73.73,
+			67,
+			18,
+			17.4,
+			72
+		],
+		[
+			"BP203407WWSZ092720215819001k",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-27 14:58:07-07",
+			73.73,
+			67,
+			8,
+			17.5,
+			57
+		],
+		[
+			"BP203407WWSZ092720205013001e",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-27 13:50:04-07",
+			73.25,
+			74,
+			5,
+			19,
+			74
+		],
+		[
+			"BP203407WWSZ092820213857001v",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-28 14:38:38-07",
+			73.44,
+			77,
+			18,
+			19.8,
+			47
+		],
+		[
+			"BP203407WWSZ0929200041230024",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-28 17:41:05-07",
+			72.67,
+			90,
+			19,
+			19.9,
+			76
+		],
+		[
+			"BP203407WWSZ0929201701070027",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-29 10:00:47-07",
+			72.24,
+			76,
+			19,
+			21.1,
+			82
+		],
+		[
+			"BP203407WWSZ092920233259002t",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-29 16:32:41-07",
+			71.79,
+			87,
+			19,
+			21.1,
+			34
+		],
+		[
+			"BP203407WWSZ100220013026002x",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-01 18:30:06-07",
+			72.17,
+			77,
+			19,
+			20.6,
+			74
+		],
+		[
+			"BP203407WWSZ092920171941002b",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-29 10:19:37-07",
+			72.24,
+			0,
+			0,
+			21.3,
+			37
+		],
+		[
+			"BP203407WWSZ1003202243340008",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-03 15:43:14-07",
+			73.13,
+			79,
+			19,
+			19.1,
+			71
+		],
+		[
+			"BP203407WWSZ1003202002500002",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-03 13:02:28-07",
+			72.86,
+			65,
+			19,
+			18.8,
+			55
+		],
+		[
+			"BP203407WWSZ100520000605000g",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-04 17:05:44-07",
+			72.9,
+			69,
+			19,
+			19.9,
+			69
+		],
+		[
+			"BP203407WWSZ0929200042070025",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-28 17:41:44-07",
+			72.67,
+			77,
+			19,
+			20.2,
+			187
+		],
+		[
+			"BP203407WWSZ1009201853010012",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-09 11:52:52-07",
+			72.79,
+			0,
+			0,
+			23.3,
+			235
+		],
+		[
+			"BP203407WWSZ0914202258080003",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-14 15:57:47-07",
+			72.97,
+			78,
+			20,
+			0,
+			88
+		],
+		[
+			"BP203407WWSZ0914202310240004",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-14 16:10:03-07",
+			72.97,
+			77,
+			20,
+			0,
+			55
+		],
+		[
+			"BP203407WWSZ0915200152130006",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-14 18:51:51-07",
+			72.31,
+			79,
+			20,
+			0,
+			67
+		],
+		[
+			"BP203407WWSZ0915200151340005",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-14 18:51:15-07",
+			72.31,
+			88,
+			20,
+			0,
+			73
+		],
+		[
+			"BP203407WWSZ0915201747240008",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-15 10:47:03-07",
+			72.6,
+			74,
+			20,
+			0,
+			34
+		],
+		[
+			"BP203407WWSZ0915201736110007",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-15 10:35:51-07",
+			72.8,
+			88,
+			20,
+			0,
+			52
+		],
+		[
+			"BP203407WWSZ091620204649000g",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-16 13:46:28-07",
+			72.94,
+			71,
+			20,
+			0,
+			57
+		],
+		[
+			"BP203407WWSZ092120011618001k",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-20 18:15:54-07",
+			73.36,
+			68,
+			20,
+			20.8,
+			106
+		],
+		[
+			"BP203407WWSZ092120202433001l",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-21 13:24:14-07",
+			73,
+			89,
+			20,
+			20.4,
+			108
+		],
+		[
+			"BP203407WWSZ092120202455001m",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-21 13:24:51-07",
+			73,
+			85,
+			20,
+			20.3,
+			86
+		],
+		[
+			"BP203407WWSZ091720011433000n",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-16 18:14:11-07",
+			73.07,
+			77,
+			20,
+			0,
+			166
+		],
+		[
+			"BP203407WWSZ0920200024160013",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-19 17:24:07-07",
+			73.89,
+			0,
+			2,
+			6.9,
+			63
+		],
+		[
+			"BP203407WWSZ0920200024460014",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-19 17:24:36-07",
+			73.89,
+			76,
+			5,
+			6.7,
+			55
+		],
+		[
+			"BP203407WWSZ092120204931001r",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-21 13:49:21-07",
+			73.06,
+			74,
+			6,
+			20.8,
+			110
+		],
+		[
+			"BP203407WWSZ092120204255001q",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-21 13:42:35-07",
+			73,
+			82,
+			20,
+			21.1,
+			102
+		],
+		[
+			"BP203407WWSZ0920200130520019",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-19 18:30:30-07",
+			73.89,
+			67,
+			20,
+			6.2,
+			71
+		],
+		[
+			"BP203407WWSZ100920203048001c",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-09 13:30:29-07",
+			72.36,
+			80,
+			19,
+			23.1,
+			90
+		],
+		[
+			"BP203407WWSZ092020015924001d",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-19 18:58:58-07",
+			73.89,
+			61,
+			20,
+			6.6,
+			77
+		],
+		[
+			"BP203407WWSZ092020015629001c",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-19 18:56:07-07",
+			73.89,
+			68,
+			20,
+			6.7,
+			78
+		],
+		[
+			"BP203407WWSZ092120223818001s",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-21 15:37:56-07",
+			73.28,
+			76,
+			20,
+			21.5,
+			57
+		],
+		[
+			"BP203407WWSZ092220025324001v",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-21 19:52:59-07",
+			72.83,
+			81,
+			20,
+			21.4,
+			168
+		],
+		[
+			"BP203407WWSZ100920203008001b",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-09 13:29:49-07",
+			72.36,
+			77,
+			19,
+			23.1,
+			61
+		],
+		[
+			"BP203407WWSZ091920020250000s",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-18 19:02:25-07",
+			72.75,
+			63,
+			20,
+			0,
+			89
+		],
+		[
+			"BP203407WWSZ091920183808000u",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-19 11:37:44-07",
+			73.6,
+			68,
+			20,
+			0,
+			63
+		],
+		[
+			"BP203407WWSZ091920200527000w",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-19 13:05:14-07",
+			73.54,
+			64,
+			8,
+			0,
+			72
+		],
+		[
+			"BP203407WWSZ091920232600000x",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-19 16:25:40-07",
+			73.89,
+			88,
+			20,
+			0,
+			51
+		],
+		[
+			"BP203407WWSZ0919202333040011",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-19 16:32:55-07",
+			73.89,
+			107,
+			4,
+			0,
+			69
+		],
+		[
+			"BP203407WWSZ091920232742000y",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-19 16:27:37-07",
+			73.89,
+			0,
+			0,
+			0,
+			52
+		],
+		[
+			"BP203407WWSZ091920233038000z",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-19 16:30:21-07",
+			73.89,
+			85,
+			12,
+			0,
+			54
+		],
+		[
+			"BP203407WWSZ0920200102190017",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-19 18:01:58-07",
+			73.89,
+			72,
+			20,
+			5.8,
+			55
+		],
+		[
+			"BP203407WWSZ092020225406001e",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-20 15:53:46-07",
+			74.18,
+			88,
+			20,
+			21.2,
+			57
+		],
+		[
+			"BP203407WWSZ092020225858001f",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-20 15:58:36-07",
+			74.18,
+			83,
+			20,
+			20.8,
+			69
+		],
+		[
+			"BP203407WWSZ092020233247001h",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-20 16:32:27-07",
+			73.61,
+			83,
+			20,
+			20.2,
+			45
+		],
+		[
+			"BP203407WWSZ092020235933001j",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-20 16:59:10-07",
+			73.61,
+			72,
+			20,
+			21.1,
+			83
+		],
+		[
+			"BP203407WWSZ092220210245001z",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-22 14:02:26-07",
+			72.83,
+			86,
+			20,
+			20.9,
+			47
+		],
+		[
+			"BP203407WWSZ0922202122300022",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-22 14:22:08-07",
+			72.94,
+			75,
+			20,
+			20.9,
+			52
+		],
+		[
+			"BP203407WWSZ0922202124430023",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-22 14:24:23-07",
+			72.94,
+			75,
+			20,
+			20.9,
+			42
+		],
+		[
+			"BP203407WWSZ0922202356200026",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-22 16:56:13-07",
+			72.24,
+			71,
+			2,
+			19.6,
+			43
+		],
+		[
+			"BP203407WWSZ100920202928001a",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-09 13:29:10-07",
+			72.36,
+			77,
+			19,
+			23.2,
+			65
+		],
+		[
+			"BP203407WWSZ0922202357010027",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-22 16:56:41-07",
+			72.24,
+			86,
+			20,
+			19.9,
+			56
+		],
+		[
+			"BP203407WWSZ0924201854510004",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-24 11:54:20-07",
+			72.98,
+			71,
+			7,
+			22.3,
+			403
+		],
+		[
+			"BP203407WWSZ0924202050110005",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-24 13:49:53-07",
+			73.23,
+			94,
+			20,
+			21.9,
+			91
+		],
+		[
+			"BP203407WWSZ0924202056090006",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-24 13:55:50-07",
+			73.23,
+			88,
+			20,
+			22.1,
+			96
+		],
+		[
+			"BP203407WWSZ0924202110040008",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-24 14:09:37-07",
+			73.23,
+			81,
+			20,
+			21.9,
+			502
+		],
+		[
+			"BP203407WWSZ0924202109190007",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-24 14:09:00-07",
+			73.23,
+			96,
+			20,
+			22,
+			96
+		],
+		[
+			"BP203407WWSZ100920182201000x",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-09 11:21:51-07",
+			72.64,
+			96,
+			8,
+			22.5,
+			69
+		],
+		[
+			"BP203407WWSZ092520010002000d",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-24 17:59:36-07",
+			73.23,
+			83,
+			18,
+			20.4,
+			270
+		],
+		[
+			"BP203407WWSZ092520012731000e",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-24 18:27:12-07",
+			73.23,
+			75,
+			18,
+			20.3,
+			77
+		],
+		[
+			"BP203407WWSZ092520021447000k",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-24 19:14:28-07",
+			73.34,
+			74,
+			18,
+			19.8,
+			44
+		],
+		[
+			"BP203407WWSZ092520013323000f",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-24 18:33:04-07",
+			73.15,
+			71,
+			18,
+			20.4,
+			73
+		],
+		[
+			"BP203407WWSZ092520020831000h",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-24 19:08:12-07",
+			73.29,
+			79,
+			18,
+			19.8,
+			56
+		],
+		[
+			"BP203407WWSZ092520022307000l",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-24 19:22:47-07",
+			73.42,
+			71,
+			18,
+			19.9,
+			93
+		],
+		[
+			"BP203407WWSZ092520021330000i",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-24 19:13:11-07",
+			73.29,
+			79,
+			18,
+			19.9,
+			54
+		],
+		[
+			"BP203407WWSZ092520021410000j",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-24 19:13:48-07",
+			73.34,
+			66,
+			18,
+			19.9,
+			125
+		],
+		[
+			"BP203407WWSZ092520022345000m",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-24 19:23:25-07",
+			73.42,
+			71,
+			18,
+			19.9,
+			76
+		],
+		[
+			"BP203407WWSZ092520015317000g",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-24 18:52:58-07",
+			73.29,
+			78,
+			18,
+			20,
+			51
+		],
+		[
+			"BP203407WWSZ092520024056000p",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-24 19:40:36-07",
+			73.5,
+			69,
+			18,
+			20,
+			174
+		],
+		[
+			"BP203407WWSZ092520024134000q",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-24 19:41:14-07",
+			73.5,
+			70,
+			18,
+			20.1,
+			63
+		],
+		[
+			"BP203407WWSZ092520181551000w",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-25 11:15:20-07",
+			72.47,
+			86,
+			10,
+			21.1,
+			475
+		],
+		[
+			"BP203407WWSZ092520022628000o",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-24 19:26:09-07",
+			73.42,
+			74,
+			18,
+			20.3,
+			94
+		],
+		[
+			"BP203407WWSZ092520175514000s",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-25 10:54:52-07",
+			72.47,
+			67,
+			19,
+			21.1,
+			46
+		],
+		[
+			"BP203407WWSZ092520175435000r",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-25 10:54:14-07",
+			72.47,
+			70,
+			19,
+			21.2,
+			63
+		],
+		[
+			"BP203407WWSZ092520181305000t",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-25 11:12:43-07",
+			72.47,
+			74,
+			18,
+			21,
+			134
+		],
+		[
+			"BP203407WWSZ100920183000000y",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-09 11:29:42-07",
+			72.72,
+			86,
+			19,
+			22.9,
+			81
+		],
+		[
+			"BP203407WWSZ0925201839530010",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-25 11:39:35-07",
+			72.47,
+			78,
+			18,
+			20.9,
+			89
+		],
+		[
+			"BP203407WWSZ0925201840300011",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-25 11:40:12-07",
+			72.47,
+			84,
+			18,
+			20.7,
+			31
+		],
+		[
+			"BP203407WWSZ0925201850530015",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-25 11:50:38-07",
+			72.47,
+			79,
+			8,
+			21.2,
+			170
+		],
+		[
+			"BP203407WWSZ092520183916000z",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-25 11:38:55-07",
+			72.47,
+			71,
+			18,
+			20.5,
+			47
+		],
+		[
+			"BP203407WWSZ0925202212280004",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-25 15:12:04-07",
+			73.19,
+			75,
+			18,
+			20.9,
+			179
+		],
+		[
+			"BP203407WWSZ092520181503000v",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-25 11:14:51-07",
+			72.47,
+			80,
+			7,
+			21.1,
+			58
+		],
+		[
+			"BP203407WWSZ0925201922170001",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-25 12:22:00-07",
+			72.43,
+			78,
+			18,
+			20.7,
+			72
+		],
+		[
+			"BP203407WWSZ0925201954280003",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-25 12:54:09-07",
+			72.43,
+			78,
+			18,
+			20.5,
+			56
+		],
+		[
+			"BP203407WWSZ0925201849540013",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-25 11:49:27-07",
+			72.47,
+			74,
+			18,
+			20.7,
+			299
+		],
+		[
+			"BP203407WWSZ0925201922580002",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-25 12:22:36-07",
+			72.43,
+			75,
+			18,
+			20.7,
+			104
+		],
+		[
+			"BP203407WWSZ0925202315110006",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-25 16:14:54-07",
+			72.95,
+			83,
+			18,
+			20.4,
+			73
+		],
+		[
+			"BP203407WWSZ092620194759000a",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-26 12:47:37-07",
+			72.58,
+			71,
+			18,
+			19.6,
+			223
+		],
+		[
+			"BP203407WWSZ0926201934270009",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-26 12:34:04-07",
+			72.58,
+			73,
+			18,
+			19.3,
+			159
+		],
+		[
+			"BP203407WWSZ092620195103000b",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-26 12:50:43-07",
+			72.58,
+			69,
+			18,
+			19.4,
+			74
+		],
+		[
+			"BP203407WWSZ092620214453000g",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-26 14:44:22-07",
+			73.19,
+			63,
+			11,
+			20.1,
+			262
+		],
+		[
+			"BP203407WWSZ092620210025000c",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-26 13:59:59-07",
+			72.58,
+			64,
+			18,
+			19.6,
+			290
+		],
+		[
+			"BP203407WWSZ092620213009000f",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-26 14:29:38-07",
+			72.58,
+			73,
+			16,
+			19.4,
+			229
+		],
+		[
+			"BP203407WWSZ092620210730000d",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-26 14:07:02-07",
+			72.58,
+			64,
+			18,
+			19.6,
+			314
+		],
+		[
+			"BP203407WWSZ092620211558000e",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-26 14:15:27-07",
+			72.58,
+			65,
+			17,
+			19.3,
+			588
+		],
+		[
+			"BP203407WWSZ092620225945000k",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-26 15:59:14-07",
+			73.35,
+			80,
+			16,
+			20.7,
+			371
+		],
+		[
+			"BP203407WWSZ092620225021000j",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-26 15:49:50-07",
+			73.35,
+			71,
+			12,
+			21,
+			437
+		],
+		[
+			"BP203407WWSZ092620230253000l",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-26 16:02:22-07",
+			73.35,
+			69,
+			16,
+			20.8,
+			327
+		],
+		[
+			"BP203407WWSZ092620220012000h",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-26 14:59:41-07",
+			73.35,
+			82,
+			12,
+			20.4,
+			290
+		],
+		[
+			"BP203407WWSZ092720013605000q",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-26 18:35:45-07",
+			72.89,
+			66,
+			18,
+			17.6,
+			74
+		],
+		[
+			"BP203407WWSZ092620232329000p",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-26 16:23:24-07",
+			73.35,
+			0,
+			0,
+			0,
+			22
+		],
+		[
+			"BP203407WWSZ092720014036000s",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-26 18:40:15-07",
+			72.89,
+			71,
+			18,
+			17.7,
+			64
+		],
+		[
+			"BP203407WWSZ092720195803000u",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-27 12:57:41-07",
+			73.34,
+			63,
+			18,
+			19.1,
+			77
+		],
+		[
+			"BP203407WWSZ092720200310000v",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-27 13:02:46-07",
+			73.34,
+			61,
+			18,
+			19,
+			53
+		],
+		[
+			"BP203407WWSZ092720200350000w",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-27 13:03:27-07",
+			73.34,
+			62,
+			18,
+			19.1,
+			36
+		],
+		[
+			"BP203407WWSZ092720200429000x",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-27 13:04:08-07",
+			73.34,
+			65,
+			18,
+			19,
+			48
+		],
+		[
+			"BP203407WWSZ0927202009400010",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-27 13:09:06-07",
+			73.34,
+			65,
+			6,
+			18.9,
+			255
+		],
+		[
+			"BP203407WWSZ092720195719000t",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-27 12:56:57-07",
+			73.34,
+			67,
+			18,
+			19.3,
+			45
+		],
+		[
+			"BP203407WWSZ0927202042300018",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-27 13:42:25-07",
+			73.34,
+			0,
+			0,
+			5.3,
+			60
+		],
+		[
+			"BP203407WWSZ0927202013510011",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-27 13:13:18-07",
+			73.34,
+			75,
+			8,
+			18.9,
+			430
+		],
+		[
+			"BP203407WWSZ0927202015330012",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-27 13:15:16-07",
+			73.34,
+			76,
+			13,
+			19,
+			75
+		],
+		[
+			"BP203407WWSZ0927202018520015",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-27 13:18:46-07",
+			73.34,
+			0,
+			0,
+			0,
+			45
+		],
+		[
+			"BP203407WWSZ092720214244001g",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-27 14:42:23-07",
+			73.73,
+			66,
+			18,
+			17.4,
+			68
+		],
+		[
+			"BP203407WWSZ092720214753001j",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-27 14:47:34-07",
+			73.73,
+			74,
+			18,
+			17.4,
+			54
+		],
+		[
+			"BP203407WWSZ092720214322001h",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-27 14:43:02-07",
+			73.73,
+			68,
+			18,
+			17.4,
+			75
+		],
+		[
+			"BP203407WWSZ0927202043230019",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-27 13:43:18-07",
+			73.34,
+			0,
+			0,
+			0,
+			21
+		],
+		[
+			"BP203407WWSZ092720220003001l",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-27 14:59:55-07",
+			73.73,
+			91,
+			4,
+			17.8,
+			50
+		],
+		[
+			"BP203407WWSZ092720220658001m",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-27 15:06:49-07",
+			73.54,
+			94,
+			4,
+			17.9,
+			58
+		],
+		[
+			"BP203407WWSZ092820211508001o",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-28 14:14:49-07",
+			73.2,
+			77,
+			18,
+			19.7,
+			57
+		],
+		[
+			"BP203407WWSZ092820212033001q",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-28 14:20:12-07",
+			73.2,
+			77,
+			18,
+			19.9,
+			95
+		],
+		[
+			"BP203407WWSZ092820211700001p",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-28 14:16:41-07",
+			73.2,
+			74,
+			18,
+			19.8,
+			51
+		],
+		[
+			"BP203407WWSZ092820211358001n",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-28 14:13:40-07",
+			73.2,
+			76,
+			18,
+			20,
+			47
+		],
+		[
+			"BP203407WWSZ092820212440001s",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-28 14:24:20-07",
+			73.2,
+			71,
+			18,
+			20.2,
+			70
+		],
+		[
+			"BP203407WWSZ092820212214001r",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-28 14:21:52-07",
+			73.2,
+			69,
+			18,
+			19.7,
+			72
+		],
+		[
+			"BP203407WWSZ092820213818001u",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-28 14:38:00-07",
+			73.44,
+			74,
+			18,
+			19.9,
+			73
+		],
+		[
+			"BP203407WWSZ092820220417001z",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-28 15:04:00-07",
+			73.79,
+			91,
+			18,
+			20.3,
+			71
+		],
+		[
+			"BP203407WWSZ092820214647001y",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-28 14:46:26-07",
+			73.64,
+			67,
+			18,
+			19.8,
+			82
+		],
+		[
+			"BP203407WWSZ092820214242001w",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-28 14:42:23-07",
+			73.56,
+			75,
+			18,
+			19.9,
+			44
+		],
+		[
+			"BP203407WWSZ092820213656001t",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-28 14:36:35-07",
+			73.44,
+			73,
+			18,
+			19.8,
+			94
+		],
+		[
+			"BP203407WWSZ0928202341100022",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-28 16:40:52-07",
+			72.67,
+			86,
+			19,
+			19.4,
+			69
+		],
+		[
+			"BP203407WWSZ0929200040460023",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-28 17:40:24-07",
+			72.67,
+			72,
+			19,
+			19.9,
+			81
+		],
+		[
+			"BP203407WWSZ0928202336240020",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-28 16:36:07-07",
+			72.67,
+			87,
+			18,
+			19.3,
+			64
+		],
+		[
+			"BP203407WWSZ0929200053500026",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-28 17:53:30-07",
+			72.57,
+			74,
+			19,
+			19.9,
+			72
+		],
+		[
+			"BP203407WWSZ0929201709510029",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-29 10:09:32-07",
+			72.24,
+			75,
+			19,
+			21.4,
+			41
+		],
+		[
+			"BP203407WWSZ092920181029002d",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-29 11:10:18-07",
+			72.29,
+			102,
+			10,
+			21,
+			79
+		],
+		[
+			"BP203407WWSZ092920180334002c",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-29 11:03:15-07",
+			72.29,
+			81,
+			19,
+			21.3,
+			91
+		],
+		[
+			"BP203407WWSZ092920171919002a",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-29 10:19:09-07",
+			72.24,
+			84,
+			7,
+			21.4,
+			105
+		],
+		[
+			"BP203407WWSZ092920204046002g",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-29 13:40:36-07",
+			71.64,
+			110,
+			6,
+			21.3,
+			81
+		],
+		[
+			"BP203407WWSZ0929201707510028",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-29 10:07:32-07",
+			72.24,
+			78,
+			19,
+			21.3,
+			58
+		],
+		[
+			"BP203407WWSZ1009201850510011",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-09 11:50:31-07",
+			72.79,
+			86,
+			18,
+			23.2,
+			187
+		],
+		[
+			"BP203407WWSZ100820215000000j",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-08 14:49:43-07",
+			73.01,
+			103,
+			19,
+			22.1,
+			125
+		],
+		[
+			"BP203407WWSZ1009201854080014",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-09 11:53:56-07",
+			72.71,
+			102,
+			10,
+			22.9,
+			72
+		],
+		[
+			"BP203407WWSZ100220012949002w",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-01 18:29:26-07",
+			72.17,
+			86,
+			19,
+			20.9,
+			108
+		],
+		[
+			"BP203407WWSZ100220001213002v",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-01 17:11:53-07",
+			72.17,
+			83,
+			19,
+			21.1,
+			187
+		],
+		[
+			"BP203407WWSZ1002201819160030",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-02 11:18:57-07",
+			72.67,
+			79,
+			19,
+			20.6,
+			43
+		],
+		[
+			"BP203407WWSZ1009201850130010",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-09 11:50:03-07",
+			72.72,
+			87,
+			7,
+			22.9,
+			58
+		],
+		[
+			"BP203407WWSZ1009201854430015",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-09 11:54:27-07",
+			72.71,
+			79,
+			7,
+			22.8,
+			266
+		],
+		[
+			"BP203407WWSZ1009201853380013",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-09 11:53:19-07",
+			72.71,
+			82,
+			14,
+			23.1,
+			103
+		],
+		[
+			"BP203407WWSZ1003202244110009",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-03 15:43:51-07",
+			73.13,
+			82,
+			19,
+			19.4,
+			51
+		],
+		[
+			"BP203407WWSZ100920203119001d",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-09 13:31:07-07",
+			72.36,
+			88,
+			7,
+			23.3,
+			109
+		],
+		[
+			"BP203407WWSZ1003202242560007",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-03 15:42:37-07",
+			73.13,
+			76,
+			19,
+			19.3,
+			52
+		],
+		[
+			"BP203407WWSZ1003201959310001",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-03 12:59:09-07",
+			72.86,
+			75,
+			19,
+			18.7,
+			233
+		],
+		[
+			"BP203407WWSZ1003202028500004",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-03 13:28:29-07",
+			72.86,
+			74,
+			19,
+			19,
+			94
+		],
+		[
+			"BP203407WWSZ1003202238420006",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-03 15:38:23-07",
+			73.13,
+			80,
+			19,
+			19.1,
+			60
+		],
+		[
+			"BP203407WWSZ1003202029310005",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-03 13:29:11-07",
+			72.86,
+			75,
+			19,
+			18.7,
+			103
+		],
+		[
+			"BP203407WWSZ100420225000000c",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-04 15:49:39-07",
+			72.9,
+			72,
+			19,
+			18.9,
+			52
+		],
+		[
+			"BP203407WWSZ100520000521000e",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-04 17:04:59-07",
+			72.9,
+			67,
+			19,
+			20.1,
+			65
+		],
+		[
+			"BP203407WWSZ100520000440000d",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-04 17:04:16-07",
+			72.9,
+			60,
+			19,
+			19.8,
+			46
+		],
+		[
+			"BP203407WWSZ100420224921000b",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-04 15:48:55-07",
+			72.9,
+			73,
+			19,
+			19,
+			211
+		],
+		[
+			"BP203407WWSZ100920014238000n",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-08 18:42:27-07",
+			72.17,
+			73,
+			7,
+			21.6,
+			45
+		],
+		[
+			"BP203407WWSZ100920020704000r",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-08 19:06:54-07",
+			72.17,
+			0,
+			5,
+			22,
+			185
+		],
+		[
+			"BP203407WWSZ091920010915000q",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-18 18:08:56-07",
+			72.75,
+			94,
+			20,
+			0,
+			66
+		],
+		[
+			"BP203407WWSZ091920185924000v",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-19 11:59:12-07",
+			73.38,
+			58,
+			6,
+			0,
+			67
+		],
+		[
+			"BP203407WWSZ092720204832001d",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-27 13:48:26-07",
+			73.34,
+			0,
+			0,
+			13.1,
+			43
+		],
+		[
+			"BP203407WWSZ0927202017390014",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-27 13:17:34-07",
+			73.34,
+			0,
+			0,
+			12.6,
+			34
+		],
+		[
+			"BP203407WWSZ0924201711360002",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-24 10:11:05-07",
+			73.06,
+			83,
+			14,
+			22.5,
+			359
+		],
+		[
+			"BP203407WWSZ0922202103580020",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-22 14:03:52-07",
+			72.83,
+			0,
+			0,
+			0,
+			76
+		],
+		[
+			"BP203407WWSZ0925201850190014",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-25 11:50:14-07",
+			72.47,
+			0,
+			0,
+			0,
+			55
+		],
+		[
+			"BP203407WWSZ092620232220000m",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-26 16:22:14-07",
+			73.35,
+			0,
+			0,
+			0,
+			66
+		],
+		[
+			"BP203407WWSZ100920020637000q",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-08 19:06:22-07",
+			72.17,
+			0,
+			5,
+			22.1,
+			375
+		],
+		[
+			"BP203407WWSZ0924201710480001",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-24 10:10:16-07",
+			73.06,
+			78,
+			9,
+			22.1,
+			416
+		],
+		[
+			"BP203407WWSZ0927202040520017",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-27 13:40:46-07",
+			73.34,
+			0,
+			0,
+			11.4,
+			19
+		],
+		[
+			"BP203407WWSZ092720204347001a",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-09-27 13:43:42-07",
+			73.34,
+			0,
+			0,
+			0,
+			48
+		],
+		[
+			"BP203407WWSZ100820231517000k",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-08 16:15:04-07",
+			72.48,
+			0,
+			0,
+			21.8,
+			237
+		],
+		[
+			"BP203407WWSZ100820231554000l",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-08 16:15:36-07",
+			72.48,
+			82,
+			8,
+			21.7,
+			163
+		],
+		[
+			"BP203407WWSZ100920020605000p",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-08 19:05:52-07",
+			72.17,
+			103,
+			10,
+			22.1,
+			114
+		],
+		[
+			"BP203407WWSZ1009202027180019",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-09 13:27:11-07",
+			72.36,
+			0,
+			2,
+			23.4,
+			68
+		],
+		[
+			"BP203407WWSZ100820231858000m",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-08 16:18:42-07",
+			72.48,
+			0,
+			4,
+			22,
+			197
+		],
+		[
+			"BP203407WWSZ100920021434000t",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-08 19:14:27-07",
+			72.17,
+			0,
+			0,
+			22,
+			435
+		],
+		[
+			"BP203407WWSZ100920021739000u",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-08 19:17:25-07",
+			72.17,
+			74,
+			6,
+			22.9,
+			248
+		],
+		[
+			"BP203407WWSZ100920181947000w",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-09 11:19:38-07",
+			72.64,
+			0,
+			5,
+			22.5,
+			46
+		],
+		[
+			"BP203407WWSZ1009201914300016",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-09 12:14:22-07",
+			72.71,
+			0,
+			4,
+			22.9,
+			73
+		],
+		[
+			"BP203407WWSZ1009201915020017",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-09 12:14:50-07",
+			72.71,
+			84,
+			9,
+			22.9,
+			50
+		],
+		[
+			"BP203407WWSZ1009201915330018",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-10-09 12:15:22-07",
+			72.71,
+			87,
+			6,
+			23.1,
+			85
+		],
+		[
+			"BP203407WWSZ1220200207360025",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-12-19 18:07:18-08",
+			72.97,
+			91,
+			19,
+			22.8,
+			95
+		],
+		[
+			"BP203407WWSZ1220200209240026",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-12-19 18:09:05-08",
+			72.97,
+			81,
+			19,
+			22.8,
+			58
+		],
+		[
+			"BP203407WWSZ1220200210430027",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-12-19 18:10:23-08",
+			72.97,
+			80,
+			19,
+			22.8,
+			51
+		],
+		[
+			"BP203407WWSZ1220200214280028",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-12-19 18:14:09-08",
+			72.97,
+			85,
+			19,
+			22.8,
+			99
+		],
+		[
+			"BP203407WWSZ121420235026001i",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-12-14 15:50:16-08",
+			73.05,
+			null,
+			0,
+			22.4,
+			89
+		],
+		[
+			"BP203407WWSZ121420234920001h",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-12-14 15:49:07-08",
+			73.05,
+			88,
+			10,
+			22.2,
+			166
+		],
+		[
+			"BP203407WWSZ121420234848001g",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-12-14 15:48:32-08",
+			73.05,
+			80,
+			12,
+			22,
+			128
+		],
+		[
+			"BP203407WWSZ121420234814001f",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-12-14 15:47:54-08",
+			73.05,
+			80,
+			19,
+			22.1,
+			126
+		],
+		[
+			"BP203407WWSZ1220200218530029",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-12-19 18:18:33-08",
+			72.97,
+			78,
+			19,
+			22.7,
+			76
+		],
+		[
+			"BP203407WWSZ121420234734001e",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-12-14 15:47:23-08",
+			73.05,
+			null,
+			6,
+			21.8,
+			56
+		],
+		[
+			"BP203407WWSZ121420234510001c",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-12-14 15:45:01-08",
+			73.12,
+			null,
+			4,
+			22.3,
+			68
+		],
+		[
+			"BP203407WWSZ121420234553001d",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-12-14 15:45:43-08",
+			73.05,
+			99,
+			7,
+			22.3,
+			86
+		],
+		[
+			"BP203407WWSZ121520004514001u",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-12-14 16:45:05-08",
+			73.1,
+			null,
+			3,
+			21.8,
+			90
+		],
+		[
+			"BP203407WWSZ121520004625001w",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-12-14 16:46:10-08",
+			73.1,
+			95,
+			10,
+			21.7,
+			105
+		],
+		[
+			"BP203407WWSZ121520004543001v",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-12-14 16:45:32-08",
+			73.1,
+			null,
+			8,
+			22,
+			128
+		],
+		[
+			"BP203407WWSZ121520004445001t",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-12-14 16:44:39-08",
+			73.1,
+			null,
+			0,
+			21.5,
+			67
+		],
+		[
+			"BP203407WWSZ121520004153001s",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-12-14 16:41:41-08",
+			73.1,
+			91,
+			8,
+			22.1,
+			49
+		],
+		[
+			"BP203407WWSZ121520004117001r",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-12-14 16:41:03-08",
+			73.1,
+			102,
+			11,
+			21.6,
+			107
+		],
+		[
+			"BP203407WWSZ121520003707001o",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-12-14 16:36:55-08",
+			73.1,
+			null,
+			4,
+			22.1,
+			226
+		],
+		[
+			"BP203407WWSZ121520003748001p",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-12-14 16:37:34-08",
+			73.1,
+			86,
+			11,
+			21.9,
+			116
+		],
+		[
+			"BP203407WWSZ121520003858001q",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-12-14 16:38:49-08",
+			73.1,
+			null,
+			3,
+			21.9,
+			150
+		],
+		[
+			"BP203407WWSZ121520003637001n",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-12-14 16:36:26-08",
+			73.1,
+			87,
+			8,
+			21.6,
+			61
+		],
+		[
+			"BP203407WWSZ121520003609001m",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-12-14 16:35:57-08",
+			73.1,
+			85,
+			8,
+			21.7,
+			55
+		],
+		[
+			"BP203407WWSZ121520003539001l",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-12-14 16:35:28-08",
+			73.1,
+			95,
+			9,
+			21.9,
+			58
+		],
+		[
+			"BP203407WWSZ121520000008001k",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-12-14 16:00:02-08",
+			73.92,
+			null,
+			1,
+			22.7,
+			62
+		],
+		[
+			"BP203407WWSZ121420235537001j",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-12-14 15:55:30-08",
+			73.05,
+			null,
+			2,
+			21.9,
+			135
+		],
+		[
+			"BP203407WWSZ121520020325001x",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-12-14 18:03:13-08",
+			72.92,
+			108,
+			6,
+			21.7,
+			184
+		],
+		[
+			"BP203407WWSZ121520020430001z",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-12-14 18:04:10-08",
+			72.92,
+			82,
+			19,
+			21.3,
+			47
+		],
+		[
+			"BP203407WWSZ121520020354001y",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-12-14 18:03:43-08",
+			72.92,
+			84,
+			6,
+			21.4,
+			153
+		],
+		[
+			"BP203407WWSZ122120002857002a",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-12-20 16:28:39-08",
+			72.97,
+			91,
+			19,
+			23.3,
+			84
+		],
+		[
+			"BP203407WWSZ122120003054002b",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-12-20 16:30:36-08",
+			72.82,
+			90,
+			19,
+			23.2,
+			38
+		],
+		[
+			"BP203407WWSZ1220200147510021",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-12-19 17:47:34-08",
+			72.97,
+			88,
+			19,
+			23,
+			58
+		],
+		[
+			"BP203407WWSZ1220200152550022",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-12-19 17:52:36-08",
+			72.97,
+			86,
+			19,
+			23.1,
+			87
+		],
+		[
+			"BP203407WWSZ1220200157280023",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-12-19 17:57:10-08",
+			72.97,
+			83,
+			19,
+			23,
+			63
+		],
+		[
+			"BP203407WWSZ1220200203050024",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2020-12-19 18:02:48-08",
+			72.97,
+			99,
+			19,
+			22.8,
+			48
+		],
+		[
+			"BP203407WWSZ010221182807002c",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2021-01-02 10:28:00-08",
+			74.07,
+			null,
+			0,
+			null,
+			111
+		],
+		[
+			"BP203407WWSZ0124210253240002",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2021-01-23 18:53:06-08",
+			73.98,
+			79,
+			19,
+			23,
+			69
+		],
+		[
+			"BP203407WWSZ0204210241320004",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2021-02-03 18:41:25-08",
+			73.76,
+			null,
+			0,
+			null,
+			44
+		],
+		[
+			"BP203407WWSZ0216211913450008",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2021-02-16 11:13:24-08",
+			74.43,
+			70,
+			19,
+			22.5,
+			48
+		],
+		[
+			"BP203407WWSZ0204210240110003",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2021-02-03 18:40:04-08",
+			73.76,
+			null,
+			0,
+			null,
+			43
+		],
+		[
+			"BP203407WWSZ0204210246320005",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2021-02-03 18:46:25-08",
+			73.82,
+			null,
+			0,
+			null,
+			48
+		],
+		[
+			"BP203407WWSZ0216211913070007",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2021-02-16 11:12:45-08",
+			74.43,
+			68,
+			19,
+			22.5,
+			71
+		],
+		[
+			"BP203407WWSZ0211211713320006",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2021-02-11 09:13:13-08",
+			73.67,
+			80,
+			19,
+			22.9,
+			57
+		],
+		[
+			"BP203407WWSZ022221031614000b",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2021-02-21 19:15:53-08",
+			74.38,
+			73,
+			19,
+			22,
+			76
+		],
+		[
+			"BP203407WWSZ0221212254220009",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2021-02-21 14:54:04-08",
+			74.28,
+			87,
+			19,
+			22.2,
+			56
+		],
+		[
+			"BP203407WWSZ022121232233000a",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2021-02-21 15:22:14-08",
+			74.28,
+			97,
+			19,
+			22.1,
+			70
+		],
+		[
+			"BP203407WWSZ022221031757000c",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2021-02-21 19:17:36-08",
+			74.38,
+			74,
+			19,
+			21.8,
+			76
+		],
+		[
+			"BP203407WWSZ022221032023000d",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2021-02-21 19:20:03-08",
+			74.38,
+			75,
+			19,
+			21.6,
+			57
+		],
+		[
+			"BP203407WWSZ022221221243000f",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2021-02-22 14:12:23-08",
+			73.72,
+			82,
+			19,
+			21.2,
+			57
+		],
+		[
+			"BP203407WWSZ022221221204000e",
+			"Z3ZcuxVChfSAQbJJGJmVHiGNyNPRHP",
+			"2021-02-22 14:11:44-08",
+			73.72,
+			81,
+			19,
+			21.2,
+			45
+		]
+	],
+	"cols": [
+		"id",
+		"user_id",
+		"creation_date",
+		"weight_kg",
+		"heart_rate",
+		"peak_count",
+		"body_fat_percent",
+		"backend_sway_area_mm2"
+	]
+}
