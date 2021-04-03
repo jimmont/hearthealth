@@ -25,11 +25,12 @@ customElements.define('hh-user', class HHUser extends LitElement{
 		super();
 		this.users = [];
 		this.user = null;
+		this.datamode = 'api';
 	}
 	selectUser(event){
 		const index = Number(event.target.value);
 		const user = this.users[ index ] || null;
-		const detail = {user, index};
+		const detail = {user, index, datamode: this.datamode};
 		this.user = isNaN(index) ? -1 : index;
 
 		console.log(`now show chart for ${ index }`, user);
@@ -42,29 +43,41 @@ customElements.define('hh-user', class HHUser extends LitElement{
 			history.pushState({}, document.title, url);
 		}
 	}
+	fetchUser(res){
+		this.users = res.rows;
+		// TODO
+		requestAnimationFrame(()=>{
+			const url = new URL(location);
+			const user = url.searchParams.get('user');
+			if(user){
+				console.warn('display user', user, url);
+				const node = this.shadowRoot.querySelector(`option[title^="${ user }"]`);
+				if(!node) return;
+				const { parentNode } = node;
+				parentNode.selectedIndex = node.index;
+				parentNode.dispatchEvent(new Event('change'));
+			}
+		});
+
+	}
 	connectedCallback(){
 		super.connectedCallback();
 		fetch('/api/users/')
 			.then(res=>res.json())
 			.then(res=>{
-				console.log(this.constructor.name, res);
-				this.users = res.rows;
-				// TODO
-				requestAnimationFrame(()=>{
-					const url = new URL(location);
-					const user = url.searchParams.get('user');
-					if(user){
-						console.warn('display user', user, url);
-						const node = this.shadowRoot.querySelector(`option[title^="${ user }"]`);
-						if(!node) return;
-						const { parentNode } = node;
-						parentNode.selectedIndex = node.index;
-						parentNode.dispatchEvent(new Event('change'));
-					}
-				});
+				return this.fetchUser(res);
 			})
-			// TODO
-			.catch(error=>error)
+			// try static files
+			.catch(error=>{
+				this.datamode = 'static';
+			 	fetch('/data-users.json')
+			 		.then(res=>res.json())
+			 		.then(res=>{
+			 			return this.fetchUser(res);
+			 		})
+			 		// TODO
+			 		.catch(console.error);
+			})
 	}
 	renderUsers(user, i){
 		const [id, name] = user;
@@ -164,13 +177,13 @@ customElements.define('hh-measurements', class HHMeasurements extends LitElement
 		this.size = this.getClientRects();
 	}
 	updateUser(event){
-		const {user, index} = event.detail;
+		const {user, index, datamode} = event.detail;
 		if(!user){
 			return this.measurements = [];
 		}
 		const [id, name] = user;
 
-		fetch(`/api/measurements?user_id=${ id }`)
+		fetch(datamode == 'api' ? `/api/measurements?user_id=${ id }` : `/data-measurements-${ id }.json`)
 			.then(res=>res.json())
 			.then(res=>{
 				console.log('TODO show chart',res);
@@ -234,7 +247,8 @@ customElements.define('hh-measurements', class HHMeasurements extends LitElement
 
 		/* bf essential 2-5M 10-13F
 			athletes...fit 6-13...17M 14-20...24F
-			average
+			average 	25-31F 18-24M
+			obese 32+F 25+M
 			*/
 		const bfticks = Array.from( new Set([bfmin, 10, 20, 30, bfmax]) );
 
