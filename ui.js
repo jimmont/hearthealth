@@ -4,7 +4,7 @@
 	* it is my solution, without any transmitted use rights or guarantee, the problem posed is included as it was conveyed
 	* feedback is welcome, reach me with any followup via www.jimmont.com, there's an email posted there
 */
-import { LitElement, html, svg, css } from '/litelement.js';
+import { LitElement, html, svg, css } from './litelement.js';
 
 customElements.define('hh-user', class HHUser extends LitElement{
 	static get styles(){
@@ -70,7 +70,7 @@ customElements.define('hh-user', class HHUser extends LitElement{
 			// try static files
 			.catch(error=>{
 				this.datamode = 'static';
-			 	fetch('/data-users.json')
+			 	fetch('./data-users.json')
 			 		.then(res=>res.json())
 			 		.then(res=>{
 			 			return this.fetchUser(res);
@@ -183,7 +183,7 @@ customElements.define('hh-measurements', class HHMeasurements extends LitElement
 		}
 		const [id, name] = user;
 
-		fetch(datamode == 'api' ? `/api/measurements?user_id=${ id }` : `/data-measurements-${ id }.json`)
+		fetch(datamode == 'api' ? `/api/measurements?user_id=${ id }` : `./data-measurements-${ id }.json`)
 			.then(res=>res.json())
 			.then(res=>{
 				console.log('TODO show chart',res);
