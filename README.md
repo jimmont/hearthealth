@@ -1,10 +1,15 @@
+
+working demo: https://jimmont.github.io/hearthealth/?user=abbie
+
+[[dataviz-hearthealth.jpg]](https://jimmont.github.io/hearthealth/?user=abbie)
+
 Below is the original problem set with responses inline for part 2.
 
 1. To run it install Deno by following the instructions at https://deno.land
 2. Run app.js with Deno by invoking the command in the comment at the top of that script.
 3. The script will suggest opening localhost on the given port in stdout.
 4. Look at the page, select a user as it suggests, interact with the chart.
-5. Provide feedback via email that you have or can find at www.jimmont.com, thanks.
+5. Provide feedback via email that you have or can find at www.jimmont.com, thanks. More [design samples here](https://jimmont.github.io/design/) and [general info here](https://jimmont.github.io).
 
 
 # Frontend Assignment
